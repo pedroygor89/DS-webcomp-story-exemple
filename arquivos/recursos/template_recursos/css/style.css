@@ -1,0 +1,107 @@
+:root {
+    --text-font-family-heading: var(--font-families-default-font);
+}
+
+.questoesLigandoPontos{
+    margin-left: -0.8em;
+}
+
+.questoesLigandoPontos .c-questions .question-block{
+    background-color: inherit !important;
+}
+
+/*.box-legenda{
+    margin-top:32px;
+}
+
+.linha-legenda-feedback{
+    border: 0px;
+    border-top: 1px solid var(--colors-default-neutral-30)
+}
+
+.text-legenda{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 20px;
+    color:var(--color-neutral-70);
+}
+
+
+
+@media (min-width:300px) and (max-width:768px) {
+
+    .c-card-destaque__body .o-image{
+        border-radius: 0px !important;
+    }
+
+    .c-card-destaque__body .c-image{
+        margin: 0px -33px !important;
+        width: auto !important;
+        border-radius: 0px;
+    }
+
+    .full{
+        margin: 32px -40px !important;
+    }
+}*/
+
+/*@media (min-width:320px) and (max-width:359px) {
+    
+    .containerPositiveFeedbackExercise{
+        
+        width: 115% !important;
+        margin: 25px 0 0 -11px !important;
+    }
+
+    .containerNegativeFeedbackExercise{
+        
+        width: 134% !important;
+        margin: 25px 0 0 -40px !important;
+    }
+   
+}
+
+@media (min-width:360px) and (max-width:374px) {
+    
+    .containerPositiveFeedbackExercise{
+        width: 119% !important;
+        margin: 25px 0 0 -12px !important;
+    }
+
+    .containerNegativeFeedbackExercise{
+        width: 129% !important;
+        margin: 25px 0 0 -40px !important;
+    }
+    
+}
+
+@media (min-width:375px) and (max-width:413px) {
+    
+    .containerPositiveFeedbackExercise{
+        width: 107% !important;
+        margin: 25px 0 0 -11px !important;
+    }
+
+    .containerNegativeFeedbackExercise{
+        width: 127%;
+        margin: 25px 0 0 -40px;
+    }
+    
+}
+
+@media (min-width:414px) and (max-width:500px) {
+    
+    .containerPositiveFeedbackExercise{
+        width: 105% !important;
+        margin: 25px 0 0 -11px !important
+    }
+
+    .containerNegativeFeedbackExercise{
+        width: 124% !important;
+        margin: 25px 0 0 -40px !important;
+    }
+    
+
+}*/

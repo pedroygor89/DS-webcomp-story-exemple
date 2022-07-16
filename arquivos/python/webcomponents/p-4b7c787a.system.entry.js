@@ -1,0 +1,1 @@
+System.register(["./p-aa0e6d07.system.js"],(function(t){"use strict";var n,s;return{setters:[function(t){n=t.r;s=t.h}],execute:function(){var e=t("yduqs_listas",function(){function t(t){n(this,t)}t.prototype.render=function(){return s("div",{class:"box-listas-".concat(this.tipo," ").concat(this.tamanho)},s("slot",null))};return t}())}}}));

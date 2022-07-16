@@ -1,0 +1,180 @@
+{
+
+	"modules": [
+
+		{
+
+			"module":"modulo_1",
+
+			"playlist":[
+
+				{
+
+					"id":"0",
+
+					"title_video":"A arquitetura e a escultura",
+
+					"subtitle_video":"",
+
+					"thumb_video":"ve1.png",
+
+					"link_video":"https://play.yduqs.videolib.live/index.html?token=ad3486cdf6f8463c95d172654a3c662a",
+
+					"paragraph":"",
+
+					"time":"2:44 min.",
+
+					"border_bottom":"true"
+
+				},
+
+				{
+
+					"id": "1",
+
+					"title_video":"A pintura e a cerâmica",
+
+					"subtitle_video":"",
+
+					"thumb_video":"ve2.png",
+
+					"link_video":"https://play.yduqs.videolib.live/index.html?token=aa6dac3e3a444362999ff3d77a517728",
+
+					"paragraph":"",
+
+					"time":"2:46 min.",
+
+					"border_bottom":"true"
+
+				}
+
+
+			]
+
+		},
+
+		{
+
+			"module":"modulo_2",
+
+			"playlist": [
+
+				{
+
+					"id":"0",
+
+					"title_video":"A epopeia",
+
+					"subtitle_video":"",
+
+					"thumb_video":"ve1.png",
+
+					"link_video":"https://play.yduqs.videolib.live/index.html?token=a73985305c1f47728ffe265762a28980",
+
+					"paragraph":"",
+
+					"time":"3:00 min.",
+
+					"border_bottom":"true"
+
+				},
+
+				{
+
+					"id": "1",
+
+					"title_video":"O herói Aquiles",
+
+					"subtitle_video":"",
+
+					"thumb_video":"ve2.png",
+
+					"link_video":"https://play.yduqs.videolib.live/index.html?token=bfc1707cce374180a23e2c6f3f10fc27",
+
+					"paragraph":"",
+
+					"time":"3:13 min.",
+
+					"border_bottom":"true"
+
+				},
+
+				{
+
+					"id": "2",
+
+					"title_video":"A estrutura da <em>Odisseia</em>",
+
+					"subtitle_video":"",
+
+					"thumb_video":"ve3.png",
+
+					"link_video":"https://play.yduqs.videolib.live/index.html?token=09a043130e2749e2875670c0fe9c1084",
+
+					"paragraph":"",
+
+					"time":"2:22 min.",
+
+					"border_bottom":"false"
+
+				}
+
+			]
+			
+
+		},
+		{
+
+			"module":"modulo_3",
+
+			"playlist": [
+
+				{
+
+					"id":"0",
+
+					"title_video":"<em>Eneida</em> – uma epopeia para Roma",
+
+					"subtitle_video":"",
+
+					"thumb_video":"ve1.png",
+
+					"link_video":"https://play.yduqs.videolib.live/index.html?token=643b0dde3b3b4415a163f10cdea0027b",
+
+					"paragraph":"",
+
+					"time":"2:11 min.",
+
+					"border_bottom":"true"
+
+				},
+
+				{
+
+					"id": "1",
+
+					"title_video":"<em>Metamorfoses</em> de Ovídio",
+
+					"subtitle_video":"",
+
+					"thumb_video":"ve2.png",
+
+					"link_video":"https://play.yduqs.videolib.live/index.html?token=df0bf9d87e51453d83ac58bd79343506",
+
+					"paragraph":"",
+
+					"time":"2:48 min.",
+
+					"border_bottom":"true"
+
+				}
+
+				
+			]
+			
+
+		}
+
+	]
+
+}

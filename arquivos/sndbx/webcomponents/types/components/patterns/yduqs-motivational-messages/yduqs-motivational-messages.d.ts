@@ -1,0 +1,40 @@
+declare type iMessage = {
+  type: 'toast' | 'confirm' | 'alert' | 'info';
+  disclaimer?: string;
+  title?: string;
+  message: string;
+  icon?: string;
+};
+export declare class YduqsMotivationalMessages {
+  open: boolean;
+  message: iMessage | null;
+  active: boolean;
+  breakInterval: number;
+  forwardInterval: number;
+  looper: any;
+  countdown: any;
+  configOpen: boolean;
+  private forwardKey;
+  handleCloseAlert(): void;
+  handleCloseConfirm(): void;
+  handleCloseInfo(): void;
+  handleCloseToast(): void;
+  private isMobile;
+  private icons;
+  private _generateForwardIntervals;
+  private _generateIntervals;
+  private handleVisibility;
+  handleOpen(): void;
+  private _setMessage;
+  private _getIcon;
+  private _showMessage;
+  private _hideMessage;
+  private _setActivateTime;
+  private _setInactivateTime;
+  private _triggerMessages;
+  private _startCount;
+  private _stopCount;
+  componentDidLoad(): void;
+  render(): any;
+}
+export {};

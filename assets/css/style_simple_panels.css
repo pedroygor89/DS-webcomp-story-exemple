@@ -1,0 +1,133 @@
+@import "style.css";
+.bg-cover::after {
+    background-color: rgb(0 0 0 / 50%);
+    content: '';
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    opacity: 0.92;
+}
+
+.bg-cover-before::before {
+    content: '';
+    left: -999em;
+    background-color: var(--primaryDark);
+    opacity: 0.92;
+    display: block;
+    position: absolute;
+    width: 999em;
+    top: 0;
+    bottom: 0;
+}
+
+h1 {
+    line-height: 1.4em;
+}
+
+.fill-before {
+    border-left: 15px solid var(--primaryLight);
+    z-index: 999;
+    position: absolute;
+    align-self: center;
+}
+
+.bg-module {
+    background-color: var(--primaryDark);
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+
+.back-title {
+    min-height: 350px;
+}
+
+.d-grid {
+    display: grid;
+}
+
+.fill-before-module {
+    position: relative;
+}
+
+.fill-before-module::before {
+    content: '';
+    background-color: var(--primary);
+    width: 15px;
+    z-index: 2;
+    height: 100%;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+}
+
+.fill-after-module {
+    position: relative;
+}
+
+.fill-after-module::after {
+    content: '';
+    background-color: var(--primaryLight);
+    opacity: .5;
+    width: 110px;
+    height: 100%;
+    z-index: 2;
+    position: absolute;
+    top: 0%;
+    right: 0%;
+}
+
+.arrows {
+    z-index: 10 !important;
+}
+
+@media only screen and (max-width: 992px) {
+    .fill-after-module::after,
+    .fill-before-module::before {
+        display: none;
+    }
+    .fill-before-cover {
+        position: relative;
+    }
+    .fill-before-cover::before {
+        content: '';
+        background-color: transparent;
+    }
+    .bg-cover::after {
+        height: 85vh;
+    }
+    .bg-sm-bottom {
+        align-self: flex-end;
+        top: 0px;
+    }
+    .img_abertura {
+        display: flex;
+    }
+    .bg-module {
+        background-color: transparent;
+        position: relative;
+    }
+    .bg-module::before {
+        background-color: var(--primaryDark);
+        content: '';
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        opacity: 0.92;
+    }
+    .back-title {
+        min-height: 100%;
+    }
+    .fill-before {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .weight-50 {
+        min-width: 70%;
+    }
+}

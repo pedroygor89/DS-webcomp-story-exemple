@@ -1,0 +1,1 @@
+System.register(["./p-aa0e6d07.system.js"],(function(t){"use strict";var e,r,n;return{setters:[function(t){e=t.r;r=t.h;n=t.a}],execute:function(){var s=t("yduqs_carousel_item",function(){function t(t){e(this,t)}t.prototype.render=function(){return r(n,{class:"c-carousel-item"},r("slot",null))};return t}())}}}));

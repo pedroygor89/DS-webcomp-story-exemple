@@ -1,0 +1,250 @@
+@charset "UTF-8";
+.video-card {
+    position: relative
+}
+
+.video-card .content-details {
+    position: absolute;
+    text-align: left;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    opacity: 0;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    -webkit-transition: all .3s ease-in-out 0s;
+    -moz-transition: all .3s ease-in-out 0s;
+    transition: all .3s ease-in-out 0s
+}
+
+.video-card .content .content-overlay {
+    background: rgba(0, 0, 0, .7);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    backdrop-filter: blur(5px);
+    right: 0;
+    opacity: 0;
+    -webkit-transition: all .4s ease-in-out 0s;
+    -moz-transition: all .4s ease-in-out 0s;
+    transition: all .4s ease-in-out 0s
+}
+
+.video-card .content:hover .content-overlay, .video-card .content:hover .hover_play {
+    opacity: 1
+}
+
+.video-card .content-icon {
+    display: flex;
+    z-index: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    font-size: 100px;
+    color: #fff;
+    opacity: .5
+}
+
+.video-card .content-image {
+    width: 100%
+}
+
+.video-card .content-details .borda {
+    margin: 0 6em 0 2em
+}
+
+.video-card .content-details p.biggerP {
+    font-size: 1.2em
+}
+
+.video-card .content:hover .content-details {
+    top: 40%;
+    left: 50%;
+    opacity: 1
+}
+
+.video-card .content-details p {
+    color: #fff;
+    font-size: 1em;
+    margin-bottom: 0
+}
+
+.video-card .fadeIn-bottom {
+    top: 80%
+}
+
+.video-card .fadeIn-top {
+    top: 20%
+}
+
+.video-card .fadeIn-left {
+    left: 20%
+}
+
+.video-card .fadeIn-right {
+    left: 80%
+}
+
+.shadowFull-video-card {
+    box-shadow: 0 0 20px 0 #000;
+    position: relative
+}
+
+.video-card .shadowFull-video-card {
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, .5)
+}
+
+.line-height-video-card {
+    line-height: 1.5
+}
+
+.commomText-video-card, .commomText-video-card p {
+    font-family: Roboto, sans-serif;
+    line-height: 1.2
+}
+
+.borda-video-card {
+    width: 85%;
+    margin: 0 auto;
+}
+
+.hover_play {
+    position: absolute;
+    right: 15px;
+    bottom: 15px;
+    color: #fff;
+    opacity: 0;
+}
+
+.hover_play p {
+    margin-bottom: 0 !important;
+    font-size: 1em;
+    font-weight: 600;
+}
+
+.hover_play i {
+    font-size: 1.5em;
+    position: relative;
+    bottom: -3px;
+}
+
+.video-card-modal {
+    z-index: 12 !important;
+}
+
+.video-card-modal .em-modal-body {
+    max-height: 100vh;
+    height: initial;
+}
+
+.video-card-modal .em-modal-content {
+    padding-top: 0;
+}
+
+.video-card-modal .em-modal-content h2 {
+    font-size: 1.5em;
+    margin-top: 0;
+}
+
+.video-card-modal .em-modal-content p {
+    font-size: 1em;
+}
+
+@media screen and (max-width:1199px) {
+    .video-card .content-details {
+        position: absolute;
+        text-align: left;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        width: 100%;
+        top: 50%;
+        left: 50%;
+        opacity: 0;
+        -webkit-transform: translate(-50%, -50%);
+        -moz-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        -webkit-transition: all .3s ease-in-out 0s;
+        -moz-transition: all .3s ease-in-out 0s;
+        transition: all .3s ease-in-out 0s
+    }
+}
+
+/* Responsividade - Novo Modelo - 1441px até 1600px - Netbook */
+
+@media only screen and (min-width: 1441px) and (max-width: 1600px) {}
+
+/* Responsividade - Novo Modelo - 1440x900 - Notebook */
+
+@media only screen and (max-width: 1440px) {}
+
+/* Responsividade - Novo Modelo - 1366x768 - Netbook */
+
+@media only screen and (max-width: 1366px) {
+    .borda-video-card {
+        width: 90%;
+    }
+}
+
+/* Responsividade - Novo Modelo - 1024x768 - Ipad Horizontal*/
+
+@media only screen and (max-width: 1024px) {
+    .video-card-modal .em-modal-body {
+        max-height: 90vh;
+        overflow: auto;
+    }
+}
+
+/* Responsividade - Novo Modelo - 1000 - Entrada Menu Mobile */
+
+@media (max-width: 1000px) {}
+
+/* Responsividade - Novo Modelo - 991 - Entrada Mobile */
+
+@media (max-width: 991px) {}
+
+/* Responsividade - Novo Modelo - 768x1024 - Ipad Vertical*/
+
+@media only screen and (max-width: 768px) {
+    .video-card-modal .em-modal-body {
+        max-width: 80vw;
+    }
+    .video-card .content .content-overlay, .video-card .content .hover_play {
+        opacity: 1
+    }
+    .video-card .content .content-details {
+        top: 40%;
+        left: 50%;
+        opacity: 1
+    }
+}
+
+/* Responsividade - Novo Modelo - 640x360 - Celular Horizontal*/
+
+@media only screen and (max-width: 640px) {
+    .video-card-modal .em-modal-body {
+        max-width: 90vw;
+    }
+}
+
+/* Responsividade - Novo Modelo - Ajuste abertura */
+
+@media only screen and (max-width: 420px) {}
+
+/* Responsividade - Novo Modelo - Ajuste faixa temas */
+
+@media only screen and (max-width: 400px) {}
+
+/* Responsividade - Novo Modelo - IPHONE X*/
+
+@media only screen and (max-width: 380px) {}
+
+/* Responsividade - Novo Modelo - 360x640 - Celular Vertical*/
+
+@media only screen and (max-width: 360px) {}

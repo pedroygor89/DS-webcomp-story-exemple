@@ -1,0 +1,119 @@
+@font-face {
+  font-family: "Barlow Condensed";
+  src: local("./files/Barlow Condensed Thin"), local("./files/BarlowCondensed-Thin"),
+    url("./files/BarlowCondensed-Thin.woff2") format("woff2"),
+    url("./files/BarlowCondensed-Thin.woff") format("woff");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Barlow Condensed";
+  src: local("./files/Barlow Condensed Thin Italic"), local("./files/BarlowCondensed-ThinItalic"),
+    url("./files/BarlowCondensed-ThinItalic.woff2") format("woff2"),
+    url("./files/BarlowCondensed-ThinItalic.woff") format("woff");
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Barlow Condensed";
+  src: local("./files/Barlow Condensed Light"), local("./files/BarlowCondensed-Light"),
+    url("./files/BarlowCondensed-Light.woff2") format("woff2"),
+    url("./files/BarlowCondensed-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Barlow Condensed";
+  src: local("./files/Barlow Condensed Light Italic"), local("./files/BarlowCondensed-LightItalic"),
+    url("./files/BarlowCondensed-LightItalic.woff2") format("woff2"),
+    url("./files/BarlowCondensed-LightItalic.woff") format("woff");
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Barlow Condensed";
+  src: local("./files/Barlow Condensed"), local("./files/BarlowCondensed-Regular"),
+    url("./files/BarlowCondensed-Regular.woff2") format("woff2"),
+    url("./files/BarlowCondensed-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Barlow Condensed";
+  src: local("./files/Barlow Condensed Italic"), local("./files/BarlowCondensed-Italic"),
+    url("./files/BarlowCondensed-RegularItalic.woff2") format("woff2"),
+    url("./files/BarlowCondensed-RegularItalic.woff") format("woff");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Barlow Condensed";
+  src: local("./files/Barlow Condensed Medium"), local("./files/BarlowCondensed-Medium"),
+    url("./files/BarlowCondensed-Medium.woff2") format("woff2"),
+    url("./files/BarlowCondensed-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Barlow Condensed";
+  src: local("./files/Barlow Condensed Medium Italic"), local("./files/BarlowCondensed-MediumItalic"),
+    url("./files/BarlowCondensed-MediumItalic.woff2") format("woff2"),
+    url("./files/BarlowCondensed-MediumItalic.woff") format("woff");
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Barlow Condensed";
+  src: local("./files/Barlow Condensed Bold"), local("./files/BarlowCondensed-Bold"),
+    url("./files/BarlowCondensed-Bold.woff2") format("woff2"),
+    url("./files/BarlowCondensed-Bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Barlow Condensed";
+  src: local("./files/Barlow Condensed Bold Italic"), local("./files/BarlowCondensed-BoldItalic"),
+    url("./files/BarlowCondensed-BoldItalic.woff2") format("woff2"),
+    url("./files/BarlowCondensed-BoldItalic.woff") format("woff");
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Barlow Condensed";
+  src: local("./files/Barlow Condensed Black"), local("./files/BarlowCondensed-Black"),
+    url("./files/BarlowCondensed-Black.woff2") format("woff2"),
+    url("./files/BarlowCondensed-Black.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Barlow Condensed";
+  src: local("./files/Barlow Condensed Black Italic"), local("./files/BarlowCondensed-BlackItalic"),
+    url("./files/BarlowCondensed-BlackItalic.woff2") format("woff2"),
+    url("./files/BarlowCondensed-BlackItalic.woff") format("woff");
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}

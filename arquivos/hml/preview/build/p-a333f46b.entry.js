@@ -1,0 +1,1 @@
+import{r as s,h as a}from"./p-22350d54.js";const i=class{constructor(a){s(this,a)}render(){return a("div",{class:"o-media__image"},a("img",{class:"o-image",alt:this.alt,src:this.src}))}};export{i as yduqs_media_image}

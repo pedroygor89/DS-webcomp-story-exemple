@@ -1,0 +1,192 @@
+{
+
+	"modules": [
+
+		{
+
+			"module":"modulo_1",
+
+			"playlist":[
+
+				{
+
+					"id":"0",
+
+					"title_video":"A transição para a terra",
+
+					"subtitle_video":"Profa. Daniela Fernandes",
+
+					"thumb_video":"img/thumb_01.jpg",
+
+					"link_video":"https://play.yduqs.videolib.live/index.html?token=418d47a69904464f89f8e81b3766ce40",
+
+					"paragraph":"",
+
+					"time":"3:55 min.",
+
+					"border_bottom":"true"
+
+				}
+
+			]
+
+		},
+
+		{
+
+			"module":"modulo_2",
+
+			"playlist": [
+
+				{
+
+					"id":"0",
+
+					"title_video":"Morfologia vegetativa",
+
+					"subtitle_video":"Profa. Daniela Fernandes",
+
+					"thumb_video":"img/thumb_01.jpg",
+
+					"link_video":"https://play.yduqs.videolib.live/index.html?token=bef39293ed404a1b8c0c662174f3b296",
+
+					"paragraph":"",
+
+					"time":"5:40 min.",
+
+					"border_bottom":"true"
+
+				},
+
+				{
+
+					"id": "1",
+
+					"title_video":" Reprodução sexuada e assexuada",
+
+					"subtitle_video":"Profa. Daniela Fernandes",
+
+					"thumb_video":"img/thumb_01.jpg",
+
+					"link_video":"https://play.yduqs.videolib.live/index.html?token=d177c2e191f94a2fbe7f9b7fdbcfae84",
+
+					"paragraph":"",
+
+					"time":"3:51 min.",
+
+					"border_bottom":"true"
+
+				}
+
+			]
+
+				
+
+		},
+
+		{
+
+			"module":"modulo_3",
+
+			"playlist": [
+
+				{
+
+					"id":"0",
+
+					"title_video":"Morfologia vegetativa",
+
+					"subtitle_video":"Profa. Daniela Fernandes",
+
+					"thumb_video":"img/thumb_01.jpg",
+
+					"link_video":"https://play.yduqs.videolib.live/index.html?token=b9c4e653e1c2432d903b92f63e42fa7c",
+
+					"paragraph":"",
+
+					"time":"3:44 min.",
+
+					"border_bottom":"true"
+
+				},
+
+				{
+
+					"id": "1",
+
+					"title_video":" Reprodução sexuada e assexuada",
+
+					"subtitle_video":"Profa. Daniela Fernandes",
+
+					"thumb_video":"img/thumb_01.jpg",
+
+					"link_video":"https://play.yduqs.videolib.live/index.html?token=3893c04ea4b94e55ba972dbe9a6e847f",
+
+					"paragraph":"",
+
+					"time":"3:37 min.",
+
+					"border_bottom":"true"
+
+				}
+
+			]
+
+				
+
+		},
+
+		{
+
+			"module":"modulo_4",
+
+			"playlist": [
+
+				{
+
+					"id":"0",
+
+					"title_video":"Morfologia geral",
+
+					"subtitle_video":"Profa. Daniela Fernandes",
+
+					"thumb_video":"img/thumb_01.jpg",
+
+					"link_video":"https://play.yduqs.videolib.live/index.html?token=aa017cab663040c6994d5ddf19088707",
+
+					"paragraph":"",
+
+					"time":"3:10 min.",
+
+					"border_bottom":"true"
+
+				},
+
+				{
+
+					"id": "1",
+
+					"title_video":"Filogenia e importância ecológica dos Filos de briófitas",
+
+					"subtitle_video":"Profa. Daniela Fernandes",
+
+					"thumb_video":"img/thumb_01.jpg",
+
+					"link_video":"https://play.yduqs.videolib.live/index.html?token=ec648b7035824e108bdc3ee1e437451d",
+
+					"paragraph":"",
+
+					"time":"2:50 min.",
+
+					"border_bottom":"true"
+
+				}
+
+			]
+				
+
+		}
+
+	]
+
+}

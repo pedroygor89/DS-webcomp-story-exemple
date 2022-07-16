@@ -1,0 +1,221 @@
+{
+
+	"modules": [
+
+		{
+
+			"module":"modulo_1",
+
+			"playlist":[
+
+				{
+
+					"id":"0",
+
+					"title_video":"A importância dos códigos de ética profissionais",
+
+					"subtitle_video":"",
+
+					"thumb_video":"https://stensineme.blob.core.windows.net/hmlgrepoh/00212sa/02345/img/img_1.png",
+
+					"link_video":"https://play.yduqs.videolib.live/index.html?token=d67c156a78684518b74034055810a597",
+
+					"paragraph":"",
+
+					"time":"2min48s",
+
+					"border_bottom":"true"
+
+				},
+
+				{
+
+					"id":"1",
+
+					"title_video":"Os deveres do biomédico",
+
+					"subtitle_video":"",
+
+					"thumb_video":"https://stensineme.blob.core.windows.net/hmlgrepoh/00212sa/02345/img/img_2.png",
+
+					"link_video":"https://play.yduqs.videolib.live/index.html?token=07a2136a53db40a58509b772562a5d34",
+
+					"paragraph":"",
+
+					"time":"3min8s",
+
+					"border_bottom":"true"
+
+				},
+
+				{
+
+					"id":"2",
+
+					"title_video":"Exercício profissional do biomédico",
+
+					"subtitle_video":"",
+
+					"thumb_video":"https://stensineme.blob.core.windows.net/hmlgrepoh/00212sa/02345/img/img_1.png",
+
+					"link_video":"https://play.yduqs.videolib.live/index.html?token=9cd0cb40c9e444a5b97dc960ada3bd3f",
+
+					"paragraph":"",
+
+					"time":"2min25s",
+
+					"border_bottom":"true"
+
+				},
+
+				{
+
+					"id":"3",
+
+					"title_video":"Direitos dos biomédicos ",
+
+					"subtitle_video":"",
+
+					"thumb_video":"https://stensineme.blob.core.windows.net/hmlgrepoh/00212sa/02345/img/img_2.png",
+
+					"link_video":"https://play.yduqs.videolib.live/index.html?token=b499490fface443f849ecefb324e0688",
+
+					"paragraph":"",
+
+					"time":"2min6s",
+
+					"border_bottom":"true"
+
+				}				
+
+			]
+
+		},
+
+		{
+
+			"module":"modulo_2",
+
+			"playlist": [
+
+				{
+
+					"id":"0",
+
+					"title_video":"Capítulo VI: Das Relações com os Colegas",
+
+					"subtitle_video":"",
+
+					"thumb_video":"https://stensineme.blob.core.windows.net/hmlgrepoh/00212sa/02345/img/img_1.png",
+
+					"link_video":"https://play.yduqs.videolib.live/index.html?token=6da9dfec538448d9b9aceedc98064aa8",
+
+					"paragraph":"",
+
+					"time":"2min12s",
+
+					"border_bottom":"true"
+
+				},
+
+				{
+
+					"id":"1",
+
+					"title_video":"Das relações com a coletividade",
+
+					"subtitle_video":"",
+
+					"thumb_video":"https://stensineme.blob.core.windows.net/hmlgrepoh/00212sa/02345/img/img_2.png",
+
+					"link_video":"https://play.yduqs.videolib.live/index.html?token=e57749c73ed249d282f71d7d2c479db3",
+
+					"paragraph":"",
+
+					"time":"2min37s",
+
+					"border_bottom":"true"
+
+				},
+
+				{
+
+					"id": "2",
+
+					"title_video":"Das relações com o Conselho Federal e Regional de Biomedicina",
+
+					"subtitle_video":"",
+
+					"thumb_video":"https://stensineme.blob.core.windows.net/hmlgrepoh/00212sa/02345/img/img_1.png",
+
+					"link_video":"https://play.yduqs.videolib.live/index.html?token=e0e02882d40f42439bbc72ebd3fed43d",
+
+					"paragraph":"",
+
+					"time":"2min29s.",
+
+					"border_bottom":"true"
+
+				}
+
+			]
+
+				
+
+		},
+
+		{
+
+			"module":"modulo_3",
+
+			"playlist": [
+
+				{
+
+					"id":"0",
+
+					"title_video":"Classificação das infrações",
+
+					"subtitle_video":"",
+
+					"thumb_video":"https://stensineme.blob.core.windows.net/hmlgrepoh/00212sa/02345/img/img_1.png",
+
+					"link_video":"https://play.yduqs.videolib.live/home?token=cfee6248a6db4fe194d3390eb539448e",
+
+					"paragraph":"",
+
+					"time":"3min7s",
+
+					"border_bottom":"true"
+
+				},
+
+				{
+
+					"id":"1",
+
+					"title_video":"Tipos de penalidades",
+
+					"subtitle_video":"",
+
+					"thumb_video":"https://stensineme.blob.core.windows.net/hmlgrepoh/00212sa/02345/img/img_2.png",
+
+					"link_video":"https://play.yduqs.videolib.live/index.html?token=078183ba9d13419fa480c16b4e15618d",
+
+					"paragraph":"",
+
+					"time":"3min22s",
+
+					"border_bottom":"true"
+
+				}				
+
+			]
+
+				
+
+		}
+
+	]
+
+}

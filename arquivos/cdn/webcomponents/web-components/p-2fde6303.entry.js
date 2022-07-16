@@ -1,0 +1,1 @@
+import{r as s,h as r,a as t}from"./p-1db2f061.js";const o=class{constructor(r){s(this,r)}render(){return r(t,{class:"c-carousel-item"},r("slot",null))}};export{o as yduqs_carousel_item}

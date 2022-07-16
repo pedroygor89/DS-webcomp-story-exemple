@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+.chart-container .legends-chart {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-top: 50px;
+}
+
+.chart-container .container-legend-chart {
+  list-style-type: none;
+}
+
+.chart-container .container-legend-chart.with-action {
+  cursor: pointer;
+}
+
+.chart-container .container-legend-chart .color-legend-chart {
+  display: inline-block;
+  height: 20px;
+  width: 20px;
+  margin-right: 5px;
+}
+
+@media all and (max-width: 768px) {
+  .chart-container .legends-chart {
+    grid-template-columns: 1fr;
+  }
+}

@@ -1,0 +1,1 @@
+import{r as s,h as r,H as t}from"./p-22350d54.js";const e=class{constructor(r){s(this,r)}render(){return r(t,{class:"c-quote__image",style:{"background-image":`url(${this.path})`}},r("slot",null))}};export{e as yduqs_quote_image}

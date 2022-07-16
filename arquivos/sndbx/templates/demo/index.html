@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<!-- Import dos estilos em @yduqs/fonts -->
+		<link rel="stylesheet" href="http://ftp.novatech.net.br/design_system/hml/cdn/fonts/roboto/fontface.css"/>
+
+		<!-- Import dos estilos em @yduqs/css -->
+		<link rel="stylesheet" href="http://ftp.novatech.net.br/design_system/hml/cdn/webcomponents/web-components/web-components.css"/>
+
+		<!-- Import dos estilos em @yduqs/tokens -->
+		<!-- <link rel="stylesheet" href="http://ftp.novatech.net.br/design_system/hml/cdn/tokens/css/variables.css"/> -->
+
+		<!-- CSS do tema específico -->
+		<link rel="stylesheet" href="demo.css"/>
+
+		<style>
+			:root, :host{
+
+				/* YDUQS CSS DESIGN TOKENS (Color overwrite examples) */
+
+				/* 
+				--colors-gray-default: #c2c9d1;
+
+				--colors-black-default: #000000;
+				--colors-black-light: #00000080;
+				--colors-black-lightest-1: #0000000d;
+
+				--colors-white-default: #ffffff;
+				--colors-white-light: #f5f5f5b3;
+
+				--colors-primary-default: #8000a7;
+
+				--colors-success-default: #145c14;
+				--colors-warning-default: #af8000;
+				--colors-error-default: #751717; 
+				*/
+
+			}
+		</style>
+
+		<title>@yduqs-ds/demo-html</title>
+
+	</head>
+
+	<body>
+
+		<div class="t-header">
+			YDUQS  |  Design System Framework v1.0  |  MVP build date: Março 2021
+		</div>
+
+		<div class="t-content">
+
+			<h1 class="c-heading u-super">YDUQS - HTML Demo</h1>
+
+			<h2 class="c-heading u-xlarge">Exemplos de uso das cores</h2>
+
+			<div class="color-cube bg-primary">
+				<span>--colors-primary-default</span>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed urna mauris, molestie ac magna in, condimentum tincidunt diam. Donec eu libero viverra, fringilla ligula in, laoreet erat.</p>
+			</div>
+			<div class="color-cube bg-success">
+				<span>--colors-success-default</span>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed urna mauris, molestie ac magna in, condimentum tincidunt diam. Donec eu libero viverra, fringilla ligula in, laoreet erat.</p>
+			</div>
+			<div class="color-cube bg-warning">
+				<span>--colors-warning-default</span>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed urna mauris, molestie ac magna in, condimentum tincidunt diam. Donec eu libero viverra, fringilla ligula in, laoreet erat.</p>
+			</div>
+			<div class="color-cube bg-error">
+				<span>--colors-error-default</span>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed urna mauris, molestie ac magna in, condimentum tincidunt diam. Donec eu libero viverra, fringilla ligula in, laoreet erat.</p>
+			</div>
+
+			<div style="clear: both;"></div>
+
+			<h2 class="c-heading u-xlarge">Exemplos de Botão</h2>
+
+			<button type="button" class="c-button">Button</button>
+			<input type="button" class="c-button" value="Input">
+			<a class="c-button">Link</a>
+			<button type="button" class="c-button" disabled>Button</button>
+
+		</div>
+
+		<!-- Import dos componentes em @yduqs/webcomponents -->
+		<script type="module" src="http://ftp.novatech.net.br/design_system/hml/cdn/webcomponents/web-components/web-components.esm.js"></script>
+		<script nomodule="" src="http://ftp.novatech.net.br/design_system/hml/cdn/webcomponents/web-components/web-components.js"></script>
+
+		<!-- Javascript do tema específico -->
+		<script src="demo.js"></script>
+
+	</body>
+
+</html>

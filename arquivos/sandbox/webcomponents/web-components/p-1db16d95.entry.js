@@ -1,0 +1,1 @@
+import{r as s,h as r}from"./p-1ffebba0.js";let e=class{constructor(r){s(this,r)}render(){return r("div",{class:"c-card-destaque__body"},r("slot",null))}};export{e as yduqs_card_destaque_body}

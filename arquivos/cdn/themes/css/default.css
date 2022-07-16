@@ -1,0 +1,20 @@
+:root {
+    /*
+     *  Tokens que alteram a base completa do tema
+     */
+    --color-primary-30: #E3EAF6;
+    --color-primary-40: #CBD5E8;
+    --color-primary-50: #A7B3CC;
+    --color-primary-60: #7E8CA5;
+    --color-primary-70: #6D7D9B;
+    --color-primary-90: #4A5E85;
+ 
+    /* --colors-tema-primary-90 */
+    --color-primary: #4A5E85;
+    /* --colors-tema-accent-70 */
+    --color-default: #AF61DB;
+    /* --colors-tema-accent-90 */
+    --color-hover: #84589D;
+    /* --colors-tema-accent-60 */
+    --color-highlight: #CDA4E3;
+}

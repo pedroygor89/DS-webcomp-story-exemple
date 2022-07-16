@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+:root {
+    --letter-color: #000000;
+    --text-allign: center;
+}
+
+.container-typewriter {
+    text-align: var(--text-allign);
+    color: var(--letter-color);
+}
+
+/* Cursor Styling */
+.container-typewriter .cursor-typewriter::after {
+    content: '';
+    display: inline-block;
+    margin-left: 3px;
+    background-color: var(--letter-color);
+    animation-name: blink;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+    height: 13px;
+    width: 6px;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.italic {
+    font-style: italic;
+}
+
+@keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    49% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 0;
+    }
+}

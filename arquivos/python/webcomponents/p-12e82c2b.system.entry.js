@@ -1,0 +1,1 @@
+System.register(["./p-aa0e6d07.system.js"],(function(t){"use strict";var e,n;return{setters:[function(t){e=t.r;n=t.h}],execute:function(){var r=t("yduqs_atividade_discursiva",function(){function t(t){e(this,t)}t.prototype.render=function(){return n("section",{class:"w-100"},n("slot",null))};return t}())}}}));

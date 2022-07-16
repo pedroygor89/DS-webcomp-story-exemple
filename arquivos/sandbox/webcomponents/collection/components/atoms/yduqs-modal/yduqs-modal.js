@@ -1,0 +1,131 @@
+import { Component, Event, h, Listen, Method, Prop, State, Watch } from '@stencil/core';
+export class YduqsModal {
+  constructor() {
+    this._isopen = false;
+    this.isopen = false;
+    this.closeModal = () => {
+      this.isopen = false;
+      this.modalClosed.emit(true);
+    };
+  }
+  handleModal(m) {
+    this._isopen = m;
+  }
+  async showModal() {
+    this._isopen = true;
+  }
+  componentWillLoad() {
+    this._isopen = this.isopen;
+    this.getModalBodyHeight();
+  }
+  onResize(event) {
+    event.stopPropagation();
+    this.getModalBodyHeight();
+  }
+  getModalBodyHeight() {
+    let widthScrean = window.innerWidth;
+    if (widthScrean > 600) {
+      this.maxbodyheight = window.innerHeight * 0.7 - 56;
+    }
+    else {
+      this.maxbodyheight = window.innerHeight * 0.8 - 56;
+    }
+  }
+  render() {
+    return (h("div", { class: this._isopen ? 'c-modal__wrapper isopen' : 'c-modal__wrapper' },
+      h("div", { class: "c-modal__overlay", onClick: this.closeModal }),
+      h("div", { class: "c-modal" },
+        h("div", { class: "c-modal__header" },
+          h("div", { class: "c-modal__close", onClick: this.closeModal },
+            h("svg", { width: "14", height: "14", viewBox: "0 0 14 14", fill: "none", xmlns: "http://www.w3.org/2000/svg" },
+              h("path", { d: "M13.3 0.709971C12.91 0.319971 12.28 0.319971 11.89 0.709971L6.99997 5.58997L2.10997 0.699971C1.71997 0.309971 1.08997 0.309971 0.699971 0.699971C0.309971 1.08997 0.309971 1.71997 0.699971 2.10997L5.58997 6.99997L0.699971 11.89C0.309971 12.28 0.309971 12.91 0.699971 13.3C1.08997 13.69 1.71997 13.69 2.10997 13.3L6.99997 8.40997L11.89 13.3C12.28 13.69 12.91 13.69 13.3 13.3C13.69 12.91 13.69 12.28 13.3 11.89L8.40997 6.99997L13.3 2.10997C13.68 1.72997 13.68 1.08997 13.3 0.709971Z", fill: "#30404D" })))),
+        h("div", { style: { 'max-height': `${this.maxbodyheight}px` }, class: "c-modal__body" },
+          h("slot", null)))));
+  }
+  static get is() { return "yduqs-modal"; }
+  static get properties() { return {
+    "isopen": {
+      "type": "boolean",
+      "mutable": false,
+      "complexType": {
+        "original": "boolean",
+        "resolved": "boolean",
+        "references": {}
+      },
+      "required": false,
+      "optional": false,
+      "docs": {
+        "tags": [],
+        "text": ""
+      },
+      "attribute": "isopen",
+      "reflect": false,
+      "defaultValue": "false"
+    },
+    "maxbodyheight": {
+      "type": "number",
+      "mutable": false,
+      "complexType": {
+        "original": "number",
+        "resolved": "number",
+        "references": {}
+      },
+      "required": false,
+      "optional": false,
+      "docs": {
+        "tags": [],
+        "text": ""
+      },
+      "attribute": "maxbodyheight",
+      "reflect": false
+    }
+  }; }
+  static get states() { return {
+    "_isopen": {}
+  }; }
+  static get events() { return [{
+      "method": "modalClosed",
+      "name": "modalClosed",
+      "bubbles": true,
+      "cancelable": true,
+      "composed": true,
+      "docs": {
+        "tags": [],
+        "text": ""
+      },
+      "complexType": {
+        "original": "boolean",
+        "resolved": "boolean",
+        "references": {}
+      }
+    }]; }
+  static get methods() { return {
+    "showModal": {
+      "complexType": {
+        "signature": "() => Promise<void>",
+        "parameters": [],
+        "references": {
+          "Promise": {
+            "location": "global"
+          }
+        },
+        "return": "Promise<void>"
+      },
+      "docs": {
+        "text": "",
+        "tags": []
+      }
+    }
+  }; }
+  static get watchers() { return [{
+      "propName": "isopen",
+      "methodName": "handleModal"
+    }]; }
+  static get listeners() { return [{
+      "name": "resize",
+      "method": "onResize",
+      "target": "window",
+      "capture": false,
+      "passive": true
+    }]; }
+}

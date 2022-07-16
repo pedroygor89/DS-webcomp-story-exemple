@@ -1,0 +1,93 @@
+
+/* ------------------------------------------------------------------------------ */
+/* RESET CSS */
+
+html {
+	height: 100%;
+}
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+	font-family: "Roboto", Helvetica, sans-serif;
+}
+
+/* 
+// HEADER 
+// --------------------------------------------------------------- //
+*/
+
+.t-header{
+	width: 90%;
+	margin: 0 auto;
+	margin-top: 40px;
+	padding: 20px;
+	background-color: var(--colors-black-lightest-2);
+	font-size: 13px;
+	font-family: 'Courier New', Courier, monospace;
+	color:var(--colors-black-default);
+}
+
+/* ------------------------------------------------------------------------------ */
+/* CONTENT */
+
+.t-content{
+	width: 90%;
+	margin: 0 auto;
+	margin-top: 16px;
+	padding: 0px 40px 40px 40px;
+	background-color: var(--colors-black-lightest-1);	
+}
+
+/* ------------------------------------------------------------------------------ */
+/* EXEMPLOS */
+
+
+
+/* 
+// COLOR TOKENS: Exemplo do uso dos tokens de cores 
+// --------------------------------------------------------------- //
+*/
+.color-cube{
+	width: 240px;
+	margin-right: 8px;
+	border-radius: 8px;
+	float: left;
+	color: var(--colors-white-default);
+	padding: 16px;
+	margin-top: 16px;
+}
+
+.color-cube span{
+	font-weight: bolder;
+	font-size: 14px;
+	font-family: 'Courier New', Courier, monospace;
+}
+
+.color-cube p{
+	font-size: 16px;
+	font-weight: lighter;
+}
+
+.color-cube.bg-primary{
+	background-color: var(--colors-primary-default);
+}
+
+.color-cube.bg-success{
+	background-color: var(--colors-success-default);
+}
+
+.color-cube.bg-warning{
+	background-color: var(--colors-warning-default);
+}
+
+.color-cube.bg-error{
+	background-color: var(--colors-error-default);
+}
+
+
+/* 
+// XXXXXXX: xxxxxxxxx 
+// --------------------------------------------------------------- //
+*/

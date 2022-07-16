@@ -1,0 +1,1 @@
+import{r as s,h as r}from"./p-1db2f061.js";const t=class{constructor(r){s(this,r)}render(){return r("section",{class:"w-100"},r("slot",null))}};export{t as yduqs_atividade_discursiva}

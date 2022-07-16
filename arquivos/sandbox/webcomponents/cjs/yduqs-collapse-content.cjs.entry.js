@@ -1,0 +1,40 @@
+'use strict';
+
+Object.defineProperty(exports, '__esModule', { value: true });
+
+const index = require('./index-e1c72ca8.js');
+
+let YduqsCollapseContent = class {
+  constructor(hostRef) {
+    index.registerInstance(this, hostRef);
+    this.onToggle = index.createEvent(this, "togglepane", 7);
+    this._isOpen = false;
+    this.open = false;
+  }
+  componentWillLoad() {
+    this._isOpen = this.open;
+  }
+  async show() {
+    this._isOpen = true;
+  }
+  async close() {
+    this._isOpen = false;
+  }
+  toggle() {
+    this._isOpen ? this.close() : this.show();
+    this.onToggle.emit(this._isOpen);
+  }
+  async isOpen() {
+    return this._isOpen;
+  }
+  animate() {
+    this.content.className = this._isOpen ? 'c-collapse__content u-fade-in' : 'c-collapse__content';
+  }
+  render() {
+    const isOpenClass = this._isOpen ? 'c-collapse__control--active' : '';
+    const sizeClass = this.size ? `u-text--${this.size}` : 'u-text--medium';
+    return (index.h(index.Host, null, index.h("button", { role: "heading", "aria-expanded": this._isOpen.toString(), class: `c-collapse__control ${isOpenClass} ${sizeClass}`, onClick: () => this.toggle() }, index.h("span", { class: "c-collapse__title" }, this.header), index.h("span", { class: "c-collapse__icon material-icons" }, "expand_more")), index.h("div", { ref: (el) => (this.content = el), "aria-hidden": !this._isOpen, class: "c-collapse__content" }, index.h("slot", null))));
+  }
+};
+
+exports.yduqs_collapse_content = YduqsCollapseContent;

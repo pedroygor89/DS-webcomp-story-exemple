@@ -1,0 +1,1 @@
+import{r,h as o}from"./p-ece0e1b2.js";let e=class{constructor(o){r(this,o)}render(){return o("footer",{class:"c-card__footer"},o("slot",null))}};export{e as yduqs_card_footer}

@@ -1,0 +1,363 @@
+{
+
+	"modules": [
+
+		{
+
+			"module":"modulo_1",
+
+			"playlist":[
+
+				{
+
+					"id":"0",
+
+					"title_video":"LOREM_IPSUM",
+
+					"subtitle_video":"",
+
+					"thumb_video":"https://stensineme.blob.core.windows.net/assets/img/tb01.jpg",
+
+					"link_video":"https://play.yduqs.videolib.live/index.html?token=27efc41292214362beddde52d341a3f6",
+
+					"paragraph":"",
+
+					"time":"",
+
+					"border_bottom":"true"
+
+				},
+
+				{
+
+					"id": "1",
+
+					"title_video":"LOREM_IPSUM",
+
+					"subtitle_video":"",
+
+					"thumb_video":"https://stensineme.blob.core.windows.net/assets/img/tb02.jpg",
+
+					"link_video":"https://play.yduqs.videolib.live/index.html?token=27efc41292214362beddde52d341a3f6",
+
+					"paragraph":"",
+
+					"time":"",
+
+					"border_bottom":"true"
+
+				},
+
+				{
+
+					"id": "2",
+
+					"title_video":"LOREM_IPSUM",
+
+					"subtitle_video":"",
+
+					"thumb_video":"https://stensineme.blob.core.windows.net/assets/img/tb03.jpg",
+
+					"link_video":"https://play.yduqs.videolib.live/index.html?token=27efc41292214362beddde52d341a3f6",
+
+					"paragraph":"",
+
+					"time":"",
+
+					"border_bottom":"true"
+
+				},
+
+				{
+
+					"id": "3",
+
+					"title_video":"LOREM_IPSUM",
+
+					"subtitle_video":"",
+
+					"thumb_video":"https://stensineme.blob.core.windows.net/assets/img/tb04.jpg",
+
+					"link_video":"https://play.yduqs.videolib.live/index.html?token=27efc41292214362beddde52d341a3f6",
+
+					"paragraph":"",
+
+					"time":"",
+
+					"border_bottom":"false"
+
+				}
+			]
+
+		},
+
+		{
+
+			"module":"modulo_2",
+
+			"playlist":[
+
+				{
+
+					"id":"0",
+
+					"title_video":"LOREM_IPSUM",
+
+					"subtitle_video":"",
+
+					"thumb_video":"https://stensineme.blob.core.windows.net/assets/img/tb01.jpg",
+
+					"link_video":"https://play.yduqs.videolib.live/index.html?token=27efc41292214362beddde52d341a3f6",
+
+					"paragraph":"",
+
+					"time":"",
+
+					"border_bottom":"true"
+
+				},
+
+				{
+
+					"id": "1",
+
+					"title_video":"LOREM_IPSUM",
+
+					"subtitle_video":"",
+
+					"thumb_video":"https://stensineme.blob.core.windows.net/assets/img/tb02.jpg",
+
+					"link_video":"https://play.yduqs.videolib.live/index.html?token=27efc41292214362beddde52d341a3f6",
+
+					"paragraph":"",
+
+					"time":"",
+
+					"border_bottom":"true"
+
+				},
+
+				{
+
+					"id": "2",
+
+					"title_video":"LOREM_IPSUM",
+
+					"subtitle_video":"",
+
+					"thumb_video":"https://stensineme.blob.core.windows.net/assets/img/tb03.jpg",
+
+					"link_video":"https://play.yduqs.videolib.live/index.html?token=27efc41292214362beddde52d341a3f6",
+
+					"paragraph":"",
+
+					"time":"",
+
+					"border_bottom":"true"
+
+				},
+
+				{
+
+					"id": "3",
+
+					"title_video":"LOREM_IPSUM",
+
+					"subtitle_video":"",
+
+					"thumb_video":"https://stensineme.blob.core.windows.net/assets/img/tb04.jpg",
+
+					"link_video":"https://play.yduqs.videolib.live/index.html?token=27efc41292214362beddde52d341a3f6",
+
+					"paragraph":"",
+
+					"time":"",
+
+					"border_bottom":"false"
+
+				}
+			]
+
+		},
+
+		{
+
+			"module":"modulo_3",
+
+			"playlist":[
+
+				{
+
+					"id":"0",
+
+					"title_video":"LOREM_IPSUM",
+
+					"subtitle_video":"",
+
+					"thumb_video":"https://stensineme.blob.core.windows.net/assets/img/tb01.jpg",
+
+					"link_video":"https://play.yduqs.videolib.live/index.html?token=27efc41292214362beddde52d341a3f6",
+
+					"paragraph":"",
+
+					"time":"",
+
+					"border_bottom":"true"
+
+				},
+
+				{
+
+					"id": "1",
+
+					"title_video":"LOREM_IPSUM",
+
+					"subtitle_video":"",
+
+					"thumb_video":"https://stensineme.blob.core.windows.net/assets/img/tb02.jpg",
+
+					"link_video":"https://play.yduqs.videolib.live/index.html?token=27efc41292214362beddde52d341a3f6",
+
+					"paragraph":"",
+
+					"time":"",
+
+					"border_bottom":"true"
+
+				},
+
+				{
+
+					"id": "2",
+
+					"title_video":"LOREM_IPSUM",
+
+					"subtitle_video":"",
+
+					"thumb_video":"https://stensineme.blob.core.windows.net/assets/img/tb03.jpg",
+
+					"link_video":"https://play.yduqs.videolib.live/index.html?token=27efc41292214362beddde52d341a3f6",
+
+					"paragraph":"",
+
+					"time":"",
+
+					"border_bottom":"true"
+
+				},
+
+				{
+
+					"id": "3",
+
+					"title_video":"LOREM_IPSUM",
+
+					"subtitle_video":"",
+
+					"thumb_video":"https://stensineme.blob.core.windows.net/assets/img/tb04.jpg",
+
+					"link_video":"https://play.yduqs.videolib.live/index.html?token=27efc41292214362beddde52d341a3f6",
+
+					"paragraph":"",
+
+					"time":"",
+
+					"border_bottom":"false"
+
+				}
+			]
+
+		},
+		
+		{
+
+			"module":"modulo_4",
+
+			"playlist":[
+
+				{
+
+					"id":"0",
+
+					"title_video":"LOREM_IPSUM",
+
+					"subtitle_video":"",
+
+					"thumb_video":"https://stensineme.blob.core.windows.net/assets/img/tb01.jpg",
+
+					"link_video":"https://play.yduqs.videolib.live/index.html?token=27efc41292214362beddde52d341a3f6",
+
+					"paragraph":"",
+
+					"time":"",
+
+					"border_bottom":"true"
+
+				},
+
+				{
+
+					"id": "1",
+
+					"title_video":"LOREM_IPSUM",
+
+					"subtitle_video":"",
+
+					"thumb_video":"https://stensineme.blob.core.windows.net/assets/img/tb02.jpg",
+
+					"link_video":"https://play.yduqs.videolib.live/index.html?token=27efc41292214362beddde52d341a3f6",
+
+					"paragraph":"",
+
+					"time":"",
+
+					"border_bottom":"true"
+
+				},
+
+				{
+
+					"id": "2",
+
+					"title_video":"LOREM_IPSUM",
+
+					"subtitle_video":"",
+
+					"thumb_video":"https://stensineme.blob.core.windows.net/assets/img/tb03.jpg",
+
+					"link_video":"https://play.yduqs.videolib.live/index.html?token=27efc41292214362beddde52d341a3f6",
+
+					"paragraph":"",
+
+					"time":"",
+
+					"border_bottom":"true"
+
+				},
+
+				{
+
+					"id": "3",
+
+					"title_video":"LOREM_IPSUM",
+
+					"subtitle_video":"",
+
+					"thumb_video":"https://stensineme.blob.core.windows.net/assets/img/tb04.jpg",
+
+					"link_video":"https://play.yduqs.videolib.live/index.html?token=27efc41292214362beddde52d341a3f6",
+
+					"paragraph":"",
+
+					"time":"",
+
+					"border_bottom":"false"
+
+				}
+			]
+
+		}
+
+	]
+
+}

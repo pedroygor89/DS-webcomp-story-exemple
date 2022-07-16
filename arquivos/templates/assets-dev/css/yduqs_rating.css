@@ -1,0 +1,114 @@
+.modFeedback {
+    background-color: var(--cor2);
+    padding: 0;
+    transition: all 500ms ease-in-out;
+    box-shadow: inset 0 0 50px rgb(0 0 0 / 25%);
+    height: 0;
+    overflow-y: hidden;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.modFeedback.avaliar {
+    padding: 2em;
+    height: initial;
+    overflow-y: initial;
+    margin-bottom: 3em;
+}
+
+.modFeedback h3 {
+    color: #fff;
+    text-align: center;
+    display: inline;
+    font-size: 1.25em;
+}
+
+.modFeedback h3 i {
+    cursor: pointer;
+}
+
+.modFeedback.avaliado {
+    padding: 1.5em;
+    height: initial;
+    overflow-y: initial;
+    /* filter: grayscale(100); */
+    background-color: #888;
+    opacity: .75;
+    box-shadow: inset 0 10px 10px rgb(0 0 0 / 75%);
+    margin-bottom: 3em;
+}
+
+.modFeedback.avaliado h3 {
+    color: #000;
+    margin: 0;
+    display: block;
+    margin-bottom: 0.25em;
+    font-size: 1.2em;
+}
+
+/* STARS */
+
+.star-rating {
+    direction: rtl;
+    display: inline-block;
+    margin-left: 5px;
+    top: -2px;
+    position: relative;
+}
+
+.star-rating input[type=radio] {
+    display: none;
+}
+
+.star-rating label {
+    color: #fff;
+    font-size: 18px;
+    padding: 0;
+    cursor: pointer;
+    -webkit-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+    margin-bottom: 0;
+    opacity: 0.25;
+}
+
+.avaliado .star-rating label {
+    opacity: 1;
+    cursor: default;
+}
+
+.avaliado .clear-star, #avaliacaoTema .clear-star {
+    opacity: 0.33;
+}
+
+.avaliar .star-rating label:hover, .avaliar .star-rating label:hover~label, .avaliar .star-rating input[type=radio]:checked~label, .gold-star {
+    color: #f2b600;
+    opacity: 1;
+}
+
+.modFeedback.avaliado .star-rating {
+    top: 0;
+}
+
+.temaFeedback {
+    background-color: var(--cor2);
+    padding: 2em;
+    transition: all 500ms ease-in-out;
+    box-shadow: inset 0 0 50px rgb(0 0 0 / 25%);
+    overflow-y: hidden;
+    text-align: center;
+}
+
+.temaFeedback h3 {
+    color: #fff;
+    text-align: center;
+    display: inline;
+}
+
+.temaFeedback .star-rating label {
+    cursor: default !important;
+    opacity: 1;
+}
+
+.temaFeedback .star-rating label:hover, .temaFeedback .star-rating label:hover~label, .temaFeedback .star-rating input[type=radio]:checked~label {
+    color: #fff;
+}

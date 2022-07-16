@@ -1,0 +1,24 @@
+:root {
+    /*
+     *  Tokens que alteram a base completa do tema
+     */
+    --color-primary-30: #83C4BE;
+    --color-primary-40: #00CCB4;
+    --color-primary-50: #809F9D;
+    --color-primary-60: #429790;
+    --color-primary-70: #22748A;
+    --color-primary-90: #0A3F3C;
+    --color-primary-90-alpha: 74, 94, 133;
+ 
+    /* --colors-tema-primary-90 */
+    --color-primary: #00CCB4;
+    /* --colors-tema-accent-70 */
+    --color-default: #FEA361;
+    /* --colors-tema-accent-90 */
+    --color-hover: #FFA553;
+    /* --colors-tema-accent-60 */
+    --color-highlight: #FFD7D6;
+}
+
+
+/* cor scroll #00CCB4 */

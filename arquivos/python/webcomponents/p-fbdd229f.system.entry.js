@@ -1,0 +1,1 @@
+System.register(["./p-aa0e6d07.system.js"],(function(t){"use strict";var r,n,e;return{setters:[function(t){r=t.r;n=t.h;e=t.a}],execute:function(){var c=t("yduqs_tag",function(){function t(t){r(this,t)}t.prototype.render=function(){var t=this.color?"c-tag--".concat(this.color):"";return n(e,{role:"tag",class:"c-tag ".concat(t)},n("slot",null))};return t}())}}}));

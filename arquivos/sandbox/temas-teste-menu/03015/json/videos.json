@@ -1,0 +1,74 @@
+{
+    "modules": [
+        {
+            "module": "modulo_1",
+            "playlist": [
+                {
+                    "id": "0",
+                    "title_video": "Banco de dados",
+                    "subtitle_video": "Profa. Melise Silveira.",
+                    "thumb_video": "img/play.jpg",
+                    "link_video": "https://play.yduqs.videolib.live/index.html?token=a72812a170cb458898365f953337f2a5",
+                    "paragraph": "",
+                    "time": "3:22 min.",
+                    "border_bottom": "true"
+                },
+                {
+                    "id": "1",
+                    "title_video": "Classificação dos Bancos de dados",
+                    "subtitle_video": "Profa. Melise Silveira.",
+                    "thumb_video": "img/play-1.jpg",
+                    "link_video": "https://play.yduqs.videolib.live/index.html?token=ce29d23394b447eaabaddd662d328569",
+                    "paragraph": "",
+                    "time": "2:24 min.",
+                    "border_bottom": "true"
+                },
+                {
+                    "id": "2",
+                    "title_video": "Principais bancos de dados - funções e utilização",
+                    "subtitle_video": "Profa. Melise Silveira.",
+                    "thumb_video": "img/play.jpg",
+                    "link_video": "https://play.yduqs.videolib.live/index.html?token=a2238664ab0241a2b9a51b5cc36cfc7b",
+                    "paragraph": "",
+                    "time": "3:42 min.",
+                    "border_bottom": "true"
+                },
+                {
+                    "id": "3",
+                    "title_video": "Anotação gênica",
+                    "subtitle_video": "Profa. Melise Silveira.",
+                    "thumb_video": "img/play-1.jpg",
+                    "link_video": "https://play.yduqs.videolib.live/index.html?token=c9a9bd1344f044b3bfeabca65fc961a1",
+                    "paragraph": "",
+                    "time": "2:11 min.",
+                    "border_bottom": "true"
+                }
+            ]
+        },
+        {
+            "module": "modulo_2",
+            "playlist": [
+                {
+                    "id": "0",
+                    "title_video": "Ciências ômicas",
+                    "subtitle_video": "Profa. Melise Silveira.",
+                    "thumb_video": "img/play.jpg",
+                    "link_video": "https://play.yduqs.videolib.live/index.html?token=242e7a709ff14c07aa522383acf30ac9",
+                    "paragraph": "",
+                    "time": "2:51 min.",
+                    "border_bottom": "true"
+                },
+                {
+                    "id": "1",
+                    "title_video": "Qual a contribuição efetiva para as ciências ômicas?",
+                    "subtitle_video": "Profa. Melise Silveira.",
+                    "thumb_video": "img/play-1.jpg",
+                    "link_video": "https://play.yduqs.videolib.live/index.html?token=84c70610cbcb42aeba2a2d34595ba24b",
+                    "paragraph": "",
+                    "time": "2:49 min.",
+                    "border_bottom": "true"
+                }
+            ]
+        }
+    ]
+}

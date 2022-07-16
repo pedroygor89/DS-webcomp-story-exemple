@@ -1,0 +1,126 @@
+@charset "UTF-8";
+
+/** Recurso Mouseover imagem e texto **/
+
+.recursoHover .content-details {
+  position: absolute;
+  text-align: left;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  opacity: 0;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  -moz-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.recursoHover .content .content-overlay {
+  background: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  backdrop-filter: blur(5px);
+  right: 0;
+  opacity: 0;
+  -webkit-transition: all 0.4s ease-in-out 0s;
+  -moz-transition: all 0.4s ease-in-out 0s;
+  transition: all 0.4s ease-in-out 0s;
+}
+
+.recursoHover .content:hover .content-overlay {
+  opacity: 1;
+}
+
+
+.recursoHover .content-image {
+  width: 100%;
+}
+
+
+.recursoHover .content-details .borda {
+  margin: 0 6em 0 2em;
+}
+
+.recursoHover .content-details p.biggerP {
+  font-size: 1.2em;
+}
+
+
+.recursoHover .content:hover .content-details {
+  top: 50%;
+  left: 50%;
+  opacity: 1;
+}
+
+.recursoHover .content-details p {
+  color: #fff;
+  font-size: 1em;
+  margin-bottom: 0;
+}
+
+.recursoHover .fadeIn-bottom {
+  top: 80%;
+}
+
+.recursoHover .fadeIn-top {
+  top: 20%;
+}
+
+.recursoHover .fadeIn-left {
+  left: 20%;
+}
+
+.recursoHover .fadeIn-right {
+  left: 80%;
+}
+
+
+.shadowFull {
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 1);
+  position: relative;
+}
+
+.recursoHover.shadowFull {
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.5);
+}
+
+.line-height1 {
+  line-height: 1.5;
+}
+
+.commomText, .commomText p {
+  font-family: "Belgrano";
+  line-height: 2;
+}
+
+.borda {
+  border-left: 2px solid white;
+  padding-left: 15px;
+  width: 80%;
+}
+
+@media screen and (max-width: 1199px) {
+  .recursoHover .content-details {
+    position: absolute;
+    text-align: left;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    opacity: 0;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    -moz-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+  }
+}
+

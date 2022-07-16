@@ -1,0 +1,1 @@
+import{r as o,h as s,a as r}from"./p-3b8a929f.js";const a=class{constructor(s){o(this,s)}render(){return s(r,{class:"c-card-modulo__body"},s("slot",null))}};export{a as yduqs_card_modulo_body}

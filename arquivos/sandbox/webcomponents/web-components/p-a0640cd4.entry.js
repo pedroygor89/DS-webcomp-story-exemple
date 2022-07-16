@@ -1,0 +1,1 @@
+import{r as s,h as e,a as r}from"./p-1ffebba0.js";let t=class{constructor(e){s(this,e)}render(){return e(r,{class:"c-quote__image",style:{"background-image":`url(${this.path})`}},e("slot",null))}};export{t as yduqs_quote_image}

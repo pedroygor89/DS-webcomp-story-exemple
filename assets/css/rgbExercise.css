@@ -1,0 +1,27 @@
+canvas {
+    border: 2px solid black;
+    background-color: black;
+}
+
+#color {
+    font-family: monospace;
+    font-size: 14pt;
+    margin: 4ex 0ex;
+}
+
+#controls {
+    padding: 10px;
+}
+
+.slider {
+    width: 300px;
+    margin: 0px 0px 10px 0px;
+
+}
+
+.slider_label {
+    font-size: 0.8em;
+    line-height: 1.1em;
+    margin: 8px 5px 8px 0px;
+    text-align: right;
+}

@@ -1,0 +1,53 @@
+.progress-ring {
+    position: absolute;
+    left: 50%;
+    z-index: -1;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.progress-ring__circle {
+    transition: 0.35s stroke-dashoffset;
+    transform: rotate(-90deg);
+    transform-origin: 50% 50%;
+}
+
+.achievements-step-icon, .achievements-step-icon-alternative {
+    position: relative;
+}
+
+.iconeVa {
+    font-size: 18px;
+    position: relative;
+    top: -3px
+}
+
+.progress-ring__circle {
+    stroke: var(--cor1);
+    stroke-width: 10px;
+    opacity: .75;
+    fill: transparent;
+}
+
+.achievements-step-icon a {
+    color: inherit !important;
+    font-weight: 300;
+    font-size: 10px !important;
+    cursor: pointer;
+    transition: font-size 250ms ease-in-out;
+}
+
+.achievements-step-icon a:hover {
+    font-size: 15px !important;
+}
+
+.achievements-step-icon:hover+.achievements-step-tooltip, .achievements-step-icon-alternative:hover+.achievements-step-tooltip-alternative {
+    display: flex;
+}
+
+@media only screen and (max-width: 1200px) {
+    .progress-ring__circle {
+        stroke: #fff !important;
+        opacity: 0.33 !important
+    }
+}

@@ -1,0 +1,1 @@
+System.register(["./p-aa0e6d07.system.js"],(function(t){"use strict";var e,r;return{setters:[function(t){e=t.r;r=t.h}],execute:function(){var n=t("yduqs_teoria",function(){function t(t){e(this,t)}t.prototype.render=function(){return r("div",{class:"box-teoria"},r("slot",null))};return t}())}}}));

@@ -1,0 +1,173 @@
+:root {
+  --primary-40: #e2d8e8;
+  --primary-70: #6a5684;
+}
+
+body {
+  align-items: center;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  margin: 0;
+}
+
+.loader {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  row-gap: 48px;
+}
+
+.animation {
+  align-items: center;
+  display: flex;
+  height: 128px;
+  width: 128px;
+}
+
+.content {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  justify-content: center;
+}
+
+.content > div {
+  align-items: center;
+  background: var(--primary-40);
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  height: 24px;
+  padding: 18px;
+  width: 24px;
+}
+
+.icon {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 24px;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.icon hr {
+  background: var(--primary-70);
+  border: none;
+  height: 2px;
+  margin: 0;
+  width: 100%;
+}
+
+.content .block1 {
+  width: 92px;
+}
+
+.block1 .icon hr:last-of-type {
+  width: 50%;
+}
+
+.block3 .icon {
+  transform: rotate(-90deg);
+}
+
+.block3 .icon hr:nth-of-type(1) {
+  width: 20px;
+}
+
+.block3 .icon hr:nth-of-type(2) {
+  width: 16px;
+}
+
+.block3 .icon hr:nth-of-type(4) {
+  width: 12px;
+}
+
+.info {
+  position: relative;
+  width: 70vw;
+}
+
+.info p {
+  color: var(--primary-70);
+  display: block;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 28px;
+  margin: auto;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+}
+
+/* Animações */
+
+.content > div {
+  animation: blocks 3s cubic-bezier(0.76, 0, 0.24, 1) infinite;
+  animation-fill-mode: backwards;
+}
+
+.content .block1 {
+  animation-delay: 0;
+}
+
+.content .block2 {
+  animation-delay: 0.75s;
+}
+
+.content .block3 {
+  animation-delay: 1.5s;
+}
+
+.info p {
+  animation: infos 14s cubic-bezier(0.25, 1, 0.5, 1) infinite;
+  animation-fill-mode: backwards;
+}
+
+.info p:first-of-type {
+  animation-delay: 0;
+}
+
+.info p:last-of-type {
+  animation-delay: 7s;
+}
+
+@keyframes infos {
+  0% {
+    opacity: 0;
+    top: 20px;
+  }
+  25% {
+    opacity: 1;
+    top: 0;
+  }
+  40% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes blocks {
+  0% {
+    transform: scale(0);
+    opacity: 0;
+  }
+  50% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}

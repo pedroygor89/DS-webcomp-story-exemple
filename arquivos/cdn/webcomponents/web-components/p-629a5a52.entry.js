@@ -1,0 +1,1 @@
+import{r as s,h as c,a as r}from"./p-3b8a929f.js";const e=class{constructor(c){s(this,c)}render(){return c(r,{class:`c-feedback-thumb ${this._class} ${this.feedback?"success":"error"}`},c("img",{src:this.image,alt:""}),c("i",{class:"material-icons icon "+(this.feedback?"success":"error")},this.feedback?"check_circle":"cancel"))}};export{e as yduqs_feedback_thumb}

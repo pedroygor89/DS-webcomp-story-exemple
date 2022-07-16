@@ -1,0 +1,1 @@
+import{r as i,h as e}from"./p-1ffebba0.js";let t=class{constructor(e){i(this,e)}render(){return e("li",{class:"c-timeline-item "+(this.last?"c-timeline-item--last":"")},e("div",{class:"c-timeline-item__icon-container"},e("span",{class:"c-timeline-item__icon material-icons"},this.icon)),e("div",{class:"c-timeline-item__body"},e("slot",null)))}};export{t as yduqs_timeline_item}

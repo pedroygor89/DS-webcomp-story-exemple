@@ -1,0 +1,1 @@
+import{r as s,h as t,a}from"./p-3b8a929f.js";const r=class{constructor(t){s(this,t)}render(){return t(a,{role:"tag",class:"c-tag "+(this.color?`c-tag--${this.color}`:"")},t("slot",null))}};export{r as yduqs_tag}

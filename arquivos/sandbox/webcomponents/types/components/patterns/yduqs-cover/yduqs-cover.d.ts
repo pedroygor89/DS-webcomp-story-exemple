@@ -1,0 +1,30 @@
+export declare class Textarea {
+  background_img: string;
+  background_img_title: string;
+  title_cover: string;
+  teacher: string;
+  teacher_avatar: string;
+  teacher_link: string;
+  contributors: string;
+  background_text: string;
+  collaboration_text: string;
+  cover_preparation: boolean;
+  background_text_mobile: string;
+  names_prof: Array<any>;
+  names_clb: Array<any>;
+  professores: Array<any>;
+  avatar: Array<any>;
+  link: Array<any>;
+  colaboradores_nome: Array<any>;
+  english: boolean;
+  spanish: boolean;
+  title_size: string;
+  lg_title: boolean;
+  xl_title: boolean;
+  template_anitta: boolean;
+  curadores(): Promise<void>;
+  colaboradores(): Promise<void>;
+  componentWillLoad(): void;
+  componentWillRender(): void;
+  render(): any;
+}

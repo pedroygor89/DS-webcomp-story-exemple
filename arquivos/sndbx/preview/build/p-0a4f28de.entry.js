@@ -1,0 +1,1 @@
+import{r as s,h as o}from"./p-22350d54.js";const r=class{constructor(o){s(this,o)}render(){return o("div",{class:"o-media__body"},o("slot",null))}};export{r as yduqs_media_body}

@@ -1,0 +1,129 @@
+// Place your key bindings in this file to overwrite the defaults
+[
+    {
+        "key": "ctrl+shift+p",
+        "command": "editor.action.insertSnippet",
+        "when": "editorTextFocus",
+        "args": {
+            "snippet": "<p class='c-paragraph u-text--medium'>${TM_SELECTED_TEXT}</p>"
+        }
+    },
+    {
+        "key": "ctrl+shift+alt+p",
+        "command": "editor.action.insertSnippet",
+        "when": "editorTextFocus",
+        "args": {
+            "snippet": "<p class='c-paragraph u-text--medium u-centered'>${TM_SELECTED_TEXT}</p>"
+        }
+    },
+    {
+        "key": "ctrl+shift+e",
+        "command": "editor.action.insertSnippet",
+        "when": "editorTextFocus",
+        "args": {
+            "snippet": "<em>${TM_SELECTED_TEXT}</em>"
+        }
+    },
+    {
+        "key": "ctrl+shift+b",
+        "command": "editor.action.insertSnippet",
+        "when": "editorTextFocus",
+        "args": {
+            "snippet": "<strong>${TM_SELECTED_TEXT}</strong>"
+        }
+    },
+    {
+        "key": "ctrl+alt+s",
+        "command": "editor.action.insertSnippet",
+        "when": "editorTextFocus",
+        "args": {
+            "snippet": "<sup>${TM_SELECTED_TEXT}</sup>"
+        }
+    },
+    {
+        "key": "ctrl+alt+d",
+        "command": "editor.action.insertSnippet",
+        "when": "editorTextFocus",
+        "args": {
+            "snippet": "<sub>${TM_SELECTED_TEXT}</sub>"
+        }
+    },
+    {
+        "key": "ctrl+shift+n",
+        "command": "editor.action.insertSnippet",
+        "when": "editorTextFocus",
+        "args": {
+            "snippet": "<strong>${TM_SELECTED_TEXT}</strong>"
+        }
+    },
+    {
+        "key": "ctrl+shift+alt+s",
+        "command": "editor.action.insertSnippet",
+        "when": "editorTextFocus",
+        "args": {
+            "snippet": "<span>${TM_SELECTED_TEXT}</span>"
+        }
+    },
+    {
+        "key": "ctrl+shift+l",
+        "command": "editor.action.insertSnippet",
+        "when": "editorTextFocus",
+        "args": {
+            "snippet": "<a class=\"c-link u-text-medium\">${TM_SELECTED_TEXT}</a>"
+        }
+    },
+    {
+        "key": "ctrl+shift+m",
+        "command": "editor.action.insertSnippet",
+        "when": "editorTextFocus",
+        "args": {
+            "snippet": "<a id=\"${1:id_do_modal}\" class=\"modal c-link\">${TM_SELECTED_TEXT}</a>"
+        }
+    },
+    {
+        "key": "ctrl+shift+c",
+        "command": "editor.action.insertSnippet",
+        "when": "editorTextFocus",
+        "args": {
+            "snippet": "&#60;"
+        }
+    },
+    {
+        "key": "ctrl+shift+t",
+        "command": "editor.action.insertSnippet",
+        "when": "editorTextFocus",
+        "args": {
+            "snippet": "<a data-toggle='tooltip' title='' data-original-title='Default tooltip'><u>${TM_SELECTED_TEXT}</u></a>"
+        }
+    },
+    {
+        "key": "ctrl+numpad_divide",
+        "command": "editor.action.sortLinesAscending"
+    },
+    {
+        "key": "ctrl+shift+numpad_divide",
+        "command": "extension.sortIt",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+shift+a",
+        "command": "-extension.sortIt",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+alt+g",
+        "command": "uuid.generate"
+    },
+    {
+        "key": "ctrl+alt+u",
+        "command": "editor.action.insertSnippet",
+        "when": "editorTextFocus",
+        "args": {
+            "snippet": "uuid: '',"
+        }
+    },
+    {
+        "key": "ctrl+shift+alt+i",
+        "command": "editor.action.inspectTMScopes"
+    },
+]

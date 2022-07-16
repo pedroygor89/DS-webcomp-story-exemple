@@ -1,0 +1,1 @@
+System.register(["./p-aa0e6d07.system.js"],(function(t){"use strict";var r,e;return{setters:[function(t){r=t.r;e=t.h}],execute:function(){var n=t("yduqs_card_body",function(){function t(t){r(this,t)}t.prototype.render=function(){return e("div",{class:"c-card__body"},e("slot",null))};return t}())}}}));

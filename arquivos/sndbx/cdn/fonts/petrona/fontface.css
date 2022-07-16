@@ -1,0 +1,60 @@
+@font-face {
+    font-family: 'Petrona';
+    src: local("./files/Petrona Bold"), local("./files/Petrona-Bold"),
+        url('./files/Petrona-Bold.woff2') format('woff2'),
+        url('./files/Petrona-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Petrona';
+    src: local("./files/Petrona Italic"), local("./files/Petrona-Italic"),
+        url('./files/Petrona-Italic.woff2') format('woff2'),
+        url('./files/Petrona-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Petrona';
+    src: local("./files/Petrona Bold Italic"), local("./files/Petrona-BoldItalic"),
+        url('./files/Petrona-BoldItalic.woff2') format('woff2'),
+        url('./files/Petrona-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Petrona';
+    src: local("./files/Petrona Medium"), local("./files/Petrona-Medium"),
+        url('./files/Petrona-Medium.woff2') format('woff2'),
+        url('./files/Petrona-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Petrona';
+    src: local("./files/Petrona Regular"), local("./files/Petrona-Regular"),
+        url('./files/Petrona-Regular.woff2') format('woff2'),
+        url('./files/Petrona-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Petrona';
+    src: local("./files/Petrona Medium Italic"), local("./files/Petrona-MediumItalic"),
+        url('./files/Petrona-MediumItalic.woff2') format('woff2'),
+        url('./files/Petrona-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+

@@ -1,0 +1,5 @@
+const NoteAddIcon = {
+	"name": "note_add",
+	"content": "<svg viewBox=\"0 0 48 48\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><path d=\"M38.82 14.82l-9.66-9.66A3.996 3.996 0 0026.34 4H12C9.8 4 8.02 5.8 8.02 8L8 40c0 2.2 1.78 4 3.98 4H36c2.2 0 4-1.8 4-4V17.66c0-1.06-.42-2.08-1.18-2.84zM30 30h-4v4c0 1.1-.9 2-2 2s-2-.9-2-2v-4h-4c-1.1 0-2-.9-2-2s.9-2 2-2h4v-4c0-1.1.9-2 2-2s2 .9 2 2v4h4c1.1 0 2 .9 2 2s-.9 2-2 2zm-4-16V7l11 11h-7c-2.2 0-4-1.8-4-4z\" fill=\"inherit\"/></svg>"
+};
+export default NoteAddIcon;

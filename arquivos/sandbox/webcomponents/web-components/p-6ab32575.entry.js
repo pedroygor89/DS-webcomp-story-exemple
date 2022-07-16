@@ -1,0 +1,1 @@
+import{r as s,h as r,a as t}from"./p-321628b3.js";let a=class{constructor(r){s(this,r)}render(){return r(t,{class:"c-tags"},r("slot",null))}};export{a as yduqs_tags}

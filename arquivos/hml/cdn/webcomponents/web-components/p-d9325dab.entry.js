@@ -1,0 +1,1 @@
+import{r as s,h as t,a as r}from"./p-3b8a929f.js";const a=class{constructor(t){s(this,t),this.dark=!1,this.outlined=!1,this.equal_height=!1,this.small=!1}render(){return t(r,{class:`c-card ${this.outlined?"c-card--outlined":this.dark?"c-card--dark":""} ${this.equal_height?"h-100":""} ${this.small?"c-card-small-p":""}`},t("slot",null))}};export{a as yduqs_card}

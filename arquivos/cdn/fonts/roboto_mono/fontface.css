@@ -1,0 +1,60 @@
+@font-face {
+    font-family: 'Roboto Mono';
+    src: local("./files/Roboto Mono Bold"), local("./files/RobotoMono-Bold"),
+        url('./files/RobotoMono-Bold.woff2') format('woff2'),
+        url('./files/RobotoMono-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto Mono';
+    src: local("./files/Roboto Mono Italic"), local("./files/RobotoMono-Italic"),
+        url('./files/RobotoMono-Italic.woff2') format('woff2'),
+        url('./files/RobotoMono-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto Mono';
+    src: local("./files/Roboto Mono Bold Italic"), local("./files/RobotoMono-BoldItalic"),
+        url('./files/RobotoMono-BoldItalic.woff2') format('woff2'),
+        url('./files/RobotoMono-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto Mono';
+    src: local("./files/Roboto Mono Regular"), local("./files/RobotoMono-Regular"),
+        url('./files/RobotoMono-Regular.woff2') format('woff2'),
+        url('./files/RobotoMono-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto Mono';
+    src: local("./files/Roboto Mono Medium Italic"), local("./files/RobotoMono-MediumItalic"),
+        url('./files/RobotoMono-MediumItalic.woff2') format('woff2'),
+        url('./files/RobotoMono-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto Mono';
+    src: local("./files/Roboto Mono Medium"), local("./files/RobotoMono-Medium"),
+        url('./files/RobotoMono-Medium.woff2') format('woff2'),
+        url('./files/RobotoMono-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+

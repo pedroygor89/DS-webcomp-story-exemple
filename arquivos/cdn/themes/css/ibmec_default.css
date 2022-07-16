@@ -1,0 +1,17 @@
+:root {
+    --color-primary-30: #edeef0;
+    --color-primary-40: #b9c1c6;
+    --color-primary-50: #a1acb3;
+    --color-primary-60: #72838c;
+    --color-primary-70: #435966;
+    --color-primary-90: #143040;
+    --colors-tema-accent-30: #f7f0e1;
+    --colors-tema-accent-60: #dcbc7c;
+    --colors-tema-accent-70: #c99836;
+    --colors-tema-accent-90: #b48019;
+    --color-highlight: var(--color-accent-60);
+    --color-default: var(--color-accent-70);
+    --color-hover: var(--color-accent-90);
+    --color-primary: var(--color-primary-90);
+    --text-font-family-heading: "Barlow Condensed", "sans-serif";
+}

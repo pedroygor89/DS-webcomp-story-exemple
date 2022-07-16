@@ -1,0 +1,219 @@
+{
+
+	"modules": [
+
+		{
+
+			"module":"modulo_1",
+
+			"playlist":[
+
+				{
+
+					"id":"0",
+
+					"title_video":"Estrutura primária da raiz.",
+
+					"subtitle_video":"Prof. Thiago Braga",
+
+					"thumb_video":"img/ve1.jpg",
+
+					"link_video":"https://play.yduqs.videolib.live/index.html?token=c98df0f0a62a4a1181bc41c1f99ac043",
+
+					"paragraph":"",
+
+					"time":"2:35",
+
+					"border_bottom":"true"
+
+				},
+
+				{
+
+					"id": "1",
+
+					"title_video":"Estrutura secundária da raiz.",
+
+					"subtitle_video":"Prof. Thiago Braga",
+
+					"thumb_video":"img/ve2.jpg",
+
+					"link_video":"https://play.yduqs.videolib.live/index.html?token=a227bebe9e73496d8c076f74ce5f3f62",
+
+					"paragraph":"",
+
+					"time":"1:47",
+
+					"border_bottom":"true"
+
+				},
+
+				{
+
+					"id": "2",
+
+					"title_video":"Estrutura primária do caule.",
+
+					"subtitle_video":"Prof. Thiago Braga",
+
+					"thumb_video":"img/ve3.jpg",
+
+					"link_video":"https://play.yduqs.videolib.live/index.html?token=34359c98f7c545f49350e1c1242b2bde",
+
+					"paragraph":"",
+
+					"time":"2:13",
+
+					"border_bottom":"true"
+
+				},
+
+				{
+
+					"id": "3",
+
+					"title_video":"Estrutura secundária do caule de eudicotiledôneas e gimnospermas.",
+
+					"subtitle_video":"Prof. Thiago Braga",
+
+					"thumb_video":"img/ve4.jpg",
+
+					"link_video":"https://play.yduqs.videolib.live/index.html?token=7e97733f78e8490290d75b01670ccb06",
+
+					"paragraph":"",
+
+					"time":"2:17",
+
+					"border_bottom":"false"
+
+				}
+
+			]
+
+		},
+
+		{
+
+			"module":"modulo_2",
+
+			"playlist": [
+
+				{
+
+					"id":"0",
+
+					"title_video":"Hormônios vegetais.",
+
+					"subtitle_video":"Prof. Thiago Braga",
+
+					"thumb_video":"img/ve1.jpg",
+
+					"link_video":"https://play.yduqs.videolib.live/index.html?token=bd89116c7df744aba45cbc941b7e478b",
+
+					"paragraph":"",
+
+					"time":"2:11",
+
+					"border_bottom":"true"
+
+				},
+
+				{
+
+					"id": "1",
+
+					"title_video":"Controle hormonal sobre o desenvolvimento dos caules.",
+
+					"subtitle_video":"Prof. Thiago Braga",
+
+					"thumb_video":"img/ve2.jpg",
+
+					"link_video":"https://play.yduqs.videolib.live/index.html?token=c46977e4a0c44f9283d7b84b29748974",
+
+					"paragraph":"",
+
+					"time":"1:51",
+
+					"border_bottom":"true"
+
+				},
+
+				{
+
+					"id": "2",
+
+					"title_video":"Movimentos dos caules.",
+
+					"subtitle_video":"Prof. Thiago Braga",
+
+					"thumb_video":"img/ve3.jpg",
+
+					"link_video":"https://play.yduqs.videolib.live/index.html?token=2b0303b1834e41c5a0665947fcf62f10",
+
+					"paragraph":"",
+
+					"time":"2:09",
+
+					"border_bottom":"false"
+
+				}
+
+			]
+
+				
+		},
+
+		{
+
+			"module":"modulo_3",
+
+			"playlist": [
+
+				{
+
+					"id":"0",
+
+					"title_video":"Elementos minerais essenciais.",
+
+					"subtitle_video":"Prof. Thiago Braga",
+
+					"thumb_video":"img/ve1.jpg",
+
+					"link_video":"https://play.yduqs.videolib.live/index.html?token=864781abfdf04180b234279ba66457ce",
+
+					"paragraph":"",
+
+					"time":"2:09",
+
+					"border_bottom":"true"
+
+				},
+
+				{
+
+					"id": "1",
+
+					"title_video":"Principais nutrientes minerais, funções e suas deficiências.",
+
+					"subtitle_video":"Prof. Thiago Braga",
+
+					"thumb_video":"img/ve2.jpg",
+
+					"link_video":"https://play.yduqs.videolib.live/index.html?token=24d24d1502cf4f3d9f5a7e5ef3003ebd",
+
+					"paragraph":"",
+
+					"time":"2:12",
+
+					"border_bottom":"false"
+				}
+				
+
+			]
+
+				
+		}
+
+	]
+
+}

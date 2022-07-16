@@ -1,0 +1,155 @@
+{
+
+	"modules": [
+
+		{
+
+			"module":"modulo_1",
+
+			"playlist":[
+
+				{
+
+					"id":"0",
+
+					"title_video":"Lei Federal nº 12.651/12",
+
+					"subtitle_video":"Profª. Carolina Ridolfi",
+
+					"thumb_video":"img/ve1.jpg",
+
+					"link_video":"https://play.yduqs.videolib.live/index.html?token=0afc721b5dec47328ece293823656c0b",
+
+					"paragraph":"",
+
+					"time":"3:44",
+
+					"border_bottom":"true"
+
+				},
+
+				{
+
+					"id": "1",
+
+					"title_video":"Recuperar, reabilitar ou restaurar?",
+
+					"subtitle_video":"Profª. Carolina Ridolfi",
+
+					"thumb_video":"img/ve2.jpg",
+
+					"link_video":"https://play.yduqs.videolib.live/index.html?token=e885d1b6b5ed422fa07abc5330003be3",
+
+					"paragraph":"",
+
+					"time":"3:11",
+
+					"border_bottom":"false"
+
+				}
+
+			]
+
+		},
+
+		{
+
+			"module":"modulo_2",
+
+			"playlist": [
+
+				{
+
+					"id":"0",
+
+					"title_video":"Metodologias de recuperação de áreas degradadas",
+
+					"subtitle_video":"Profª. Carolina Ridolfi",
+
+					"thumb_video":"img/ve1.jpg",
+
+					"link_video":"https://play.yduqs.videolib.live/index.html?token=11c7d9e823424e14bf698aef8694c7a9",
+
+					"paragraph":"",
+
+					"time":"2:49",
+
+					"border_bottom":"true"
+
+				},
+
+				{
+
+					"id": "1",
+
+					"title_video":"Monitoramento da recuperação de áreas degradadas",
+
+					"subtitle_video":"Profª. Carolina Ridolfi",
+
+					"thumb_video":"img/ve2.jpg",
+
+					"link_video":"https://play.yduqs.videolib.live/index.html?token=4d9fd79dca71470d86df680aaf75496d",
+
+					"paragraph":"",
+
+					"time":"1:57",
+
+					"border_bottom":"false"
+
+				}
+			]
+
+		},
+
+		{
+
+			"module":"modulo_3",
+
+			"playlist": [
+
+				{
+
+					"id":"0",
+
+					"title_video":"O que é o planejamento ambiental?",
+
+					"subtitle_video":"Profª. Carolina Ridolfi",
+
+					"thumb_video":"img/ve1.jpg",
+
+					"link_video":"https://play.yduqs.videolib.live/index.html?token=18bda084dd954a52830e6fd74872202b",
+
+					"paragraph":"",
+
+					"time":"3:29",
+
+					"border_bottom":"true"
+
+				},
+
+				{
+
+					"id": "1",
+
+					"title_video":"Implantação e monitoramento",
+
+					"subtitle_video":"Profª. Carolina Ridolfi",
+
+					"thumb_video":"img/ve2.jpg",
+
+					"link_video":"https://play.yduqs.videolib.live/index.html?token=dabcd414f8b449628616ebfc71f67189",
+
+					"paragraph":"",
+
+					"time":"3:07",
+
+					"border_bottom":"false"
+
+				}
+			]
+
+		}
+
+	]
+
+}

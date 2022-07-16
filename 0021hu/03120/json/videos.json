@@ -1,0 +1,160 @@
+{
+
+	"modules": [
+
+		{
+
+			"module":"modulo_1",
+
+			"playlist":[
+
+				{
+
+					"id":"0",
+
+					"title_video":"Os sentidos do termo",
+
+					"subtitle_video":"",
+
+					"thumb_video":"img/thumb1.jpg",
+
+					"link_video":"https://play.yduqs.videolib.live/home?token=3f9c1cec368442f989c51649033175c2",
+
+					"paragraph":"",
+
+					"time":"2:13 min.",
+
+					"border_bottom":"true"
+
+				},
+
+				{
+
+					"id": "1",
+
+					"title_video":"Demonstração",
+
+					"subtitle_video":"",
+
+					"thumb_video":"img/thumb2.jpg",
+
+					"link_video":"https://play.yduqs.videolib.live/home?token=1cddaabc568e4b83948fa49971fd08fa",
+
+					"paragraph":"",
+
+					"time":"2:20 min.",
+
+					"border_bottom":"false"
+
+				}
+			]
+
+		},
+
+		{
+
+			"module":"modulo_2",
+
+			"playlist": [
+
+				{
+
+					"id":"0",
+
+					"title_video":"Tempo – espaço: artistas e o “vazio”",
+
+					"subtitle_video":"",
+
+					"thumb_video":"img/thumb3.jpg",
+
+					"link_video":"https://play.yduqs.videolib.live/home?token=ac7359a66ed442edaf24a51428c372ce",
+
+					"paragraph":"",
+
+					"time":"2:10 min.",
+
+					"border_bottom":"true"
+
+				},
+
+				{
+
+					"id": "1",
+
+					"title_video":"Demonstração",
+
+					"subtitle_video":"",
+
+					"thumb_video":"img/thumb4.jpg",
+
+					"link_video":"https://play.yduqs.videolib.live/home?token=2d97af5980f545ebac1af16318f7db3f",
+
+					"paragraph":"",
+
+					"time":"2:17 min.",
+
+					"border_bottom":"false"
+
+				}
+
+			]
+
+				
+
+		},
+
+		{
+
+			"module":"modulo_3",
+
+			"playlist": [
+
+				{
+
+					"id":"0",
+
+					"title_video":"Corpo, política, conceitual e ideologia",
+
+					"subtitle_video":"",
+
+					"thumb_video":"img/thumb1.jpg",
+
+					"link_video":"https://play.yduqs.videolib.live/home?token=36a6464e535b497699c6fa29447a6a61",
+
+					"paragraph":"",
+
+					"time":"1:43 min.",
+
+					"border_bottom":"true"
+
+				},
+
+				{
+
+					"id": "1",
+
+					"title_video":"Percepção ampliada/tempo",
+
+					"subtitle_video":"",
+
+					"thumb_video":"img/thumb2.jpg",
+
+					"link_video":"https://play.yduqs.videolib.live/home?token=84939c2a3cf54bfeb2c77d36e07cfb1a",
+
+					"paragraph":"",
+
+					"time":"2:19 min.",
+
+					"border_bottom":"false"
+
+				}
+
+			]
+
+				
+
+		}
+
+	]
+
+}

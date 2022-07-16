@@ -1,0 +1,1 @@
+import{r as o,h as r,a as s}from"./p-c4393f38.js";const t=class{constructor(r){o(this,r)}render(){return r(s,{class:"c-card-modulo__footer"},r("slot",null))}};export{t as yduqs_card_modulo_footer}

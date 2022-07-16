@@ -1,0 +1,173 @@
+div.flexCards {
+    margin: 2em auto;
+}
+
+div.flexCards .flexCard.cardClosed:before {
+    background: #333;
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -2;
+}
+
+div.flexCards .flexCard.cardOpened:before {
+    background: #fafafa;
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -2;
+}
+
+div.flexCards .flexCard.cardClosed:after {
+    background-position: center center;
+    background-size: cover;
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0.25;
+    filter: blur(5px);
+    z-index: -1;
+    transition: all ease-in-out 500ms;
+}
+
+div.flexCards .flexCard {
+    position: relative;
+    padding: 3em;
+    text-align: center;
+    min-height: 450px;
+    border-top: 15px solid #fff;
+    border-bottom: 15px solid #fff;
+    border-left: 15px solid #fff;
+    box-sizing: border-box;
+    display: table;
+}
+
+div.flexCards .flexCard.cardOpened {
+    border-top: 2px solid var(--primary);
+    border-bottom: 2px solid var(--primary);
+    border-left: 2px solid var(--primary);
+    border-right: 2px solid var(--primary);
+    margin-bottom: 1em;
+    min-height: initial;
+}
+
+div.flexCards .flexCover {
+    color: #fff;
+    text-align: center;
+}
+
+div.flexCards .flexCover h2 {
+    color: #fff;
+    text-align: center;
+    transition: all ease-in-out 250ms;
+    margin-bottom: 0;
+    font-weight: 700;
+    margin-top: 0;
+}
+
+div.flexCards .flexCover h3 {
+    color: #fff;
+    text-align: center;
+    transition: all ease-in-out 250ms;
+    font-size: 1em;
+    font-weight: 300;
+    margin-bottom: 0;
+}
+
+div.flexCards .flexCard:hover h2, div.flexCards .flexCard:hover h3 {
+    opacity: 0;
+}
+
+div.flexCards .flexCover {
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+    transition: all ease-in-out 500ms;
+    margin-bottom: 1em;
+    padding-bottom: 2em;
+}
+
+div.flexCards .flexContent {
+    display: none;
+    transition: all ease-in-out 500ms;
+    vertical-align: middle;
+    width: 100%;
+}
+
+div.flexCards .flexContent p {
+    text-align: left;
+    margin-bottom: 0;
+}
+
+div.flexCards button {
+    cursor: pointer;
+    margin-bottom: 0;
+    width: 100%;
+    text-align: center;
+    background: var(--primary);
+    color: #fff;
+    padding: 0.5em;
+    transition: all ease-in-out 150ms;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border: 0;
+}
+
+div.flexCards button:hover {
+    background: var(--primaryDark);
+}
+
+div.flexCards .flexCard.cardOpened button {
+    cursor: pointer;
+    margin-bottom: 0;
+    display: inline-block;
+    text-align: center;
+    background: var(--primary);
+    color: #fff;
+    padding: 0.5em 1em;
+    transition: all ease-in-out 150ms;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    border: 0;
+    left: initial;
+    width: initial;
+}
+
+div.flexCards .flexCard.cardOpened:hover:after {
+    filter: blur(0px);
+    opacity: 0.75;
+}
+
+div.flexCards .flexCard.cardClosed:hover:after {
+    filter: blur(0px);
+    opacity: 0.75;
+}
+
+@media only screen and (max-width: 600px) {
+    div.flexCards .flexCard.cardClosed {
+        border: 0;
+        padding: 3em 1.5em;
+        margin: 1em;
+    }
+    div.flexCards .flexCard.cardOpened {
+        padding: 1.5em 1.5em 4em 1.5em;
+        margin: 1em;
+    }
+    div.flexCards .flexContent img {
+        margin-bottom: 2em;
+    }
+    div.flexCards .flexCard {
+        min-height: 250px;
+    }
+}

@@ -1,0 +1,47 @@
+import { EventEmitter } from '../../../stencil-public-runtime';
+import { YduqsMenuModel } from './yduqs-menu.model';
+export declare class YduqsMenu {
+  el: HTMLElement;
+  onChangeMenuData: EventEmitter;
+  onClickMenuItem: EventEmitter;
+  onClickMenuTitle: EventEmitter;
+  _isMobile: boolean;
+  _isOpen: boolean;
+  _isOpenGallery: boolean;
+  _isActive: boolean;
+  _animate: boolean;
+  _activeIndex: number;
+  _videoModule: number;
+  videoItems: {
+    modules: any[];
+  };
+  _titleModuloCover: String;
+  menuDeskContainerEl: HTMLDivElement;
+  _menuDeskContainerWidth: string;
+  settings: YduqsMenuModel;
+  position: number;
+  english: boolean;
+  spanish: boolean;
+  hide_search: boolean;
+  handleWindowResize(): void;
+  initialize(config: YduqsMenuModel): Promise<void>;
+  openGalleryVideo(video: any): Promise<void>;
+  private closeMenu;
+  watchHandler(): void;
+  private openMenu;
+  private updateActiveItem;
+  private renderActiveMarker;
+  private renderNameModule;
+  private getNextSiblings;
+  videosLoad(): void;
+  jsonLoad(): void;
+  private renderMenuJorney;
+  private renderMenuMedia;
+  private renderMenuActivity;
+  private getMenuRender;
+  private animate;
+  componentWillLoad(): Promise<void>;
+  private getRenderDowloads;
+  componentDidLoad(): void;
+  render(): any;
+}

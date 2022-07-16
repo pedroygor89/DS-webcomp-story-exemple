@@ -1,0 +1,184 @@
+@import url("https://fonts.googleapis.com/css2?family=Krub:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
+
+:root {
+    --color-primary-30: #edeef0;
+    --color-primary-40: #b9c1c6;
+    --color-primary-50: #a1acb3;
+    --color-primary-60: #72838c;
+    --color-primary-70: #435966;
+    --color-primary-90: #143040;
+    --color-primary-90-alpha: 20, 48, 64;
+
+    --colors-tema-accent-30: #FFCC5F;
+    --colors-tema-accent-60: #dcbc7c;
+    --colors-tema-accent-70: #c99836;
+    --colors-tema-accent-90: #b48019;
+
+    --color-highlight: var(--color-accent-60);
+    --color-default: var(--color-accent-70);
+    --color-hover: var(--color-accent-90);
+    --color-primary: var(--color-primary-90);
+    --text-font-family-heading: "Krub", "sans-serif";
+}
+
+.c-module-cover .box-column span {
+    background-color: var(--colors-tema-accent-70) !important;
+}
+
+.c-topic-title .title-bar {
+    background-color: var(--colors-tema-accent-70) !important;
+}
+
+.c-module-cover {
+    --column-bg-color: rgba(67, 89, 102, 0.3) !important;
+    --themme-bg-color: var(--color-primary-90) !important;
+}
+
+.c-card-intro--outline {
+    --border-color: var(--colors-tema-accent-70) !important;
+}
+
+#card-modulo1 > yduqs-card-modulo-header > h2 {
+    color: var(--colors-tema-accent-70) !important;
+}
+
+#card-modulo2 > yduqs-card-modulo-header > h2 {
+    color: var(--colors-tema-accent-70) !important;
+}
+
+#card-modulo3 > yduqs-card-modulo-header > h2 {
+    color: var(--colors-tema-accent-70) !important;
+}
+
+#card-modulo4 > yduqs-card-modulo-header > h2 {
+    color: var(--colors-tema-accent-70) !important;
+}
+
+.c-card-horizontal .card-icon {
+    color: var(--colors-tema-accent-70) !important;
+}
+
+.c-card.c-card--outlined {
+    border: 2px solid var(--colors-tema-accent-70) !important;
+}
+
+.c-card-horizontal header::before {
+    background-color: var(--color-primary-90) !important;
+}
+
+.icon-header {
+    color: var(--colors-tema-accent-70) !important;
+}
+
+.c-topic-title--dark .material-icons {
+    color: var(--colors-tema-accent-70) !important;
+}
+
+.card-header-text h1::after {
+    background-color: var(--colors-tema-accent-70) !important;
+}
+
+.c-topic-title .material-icons {
+    color: var(--colors-tema-accent-70) !important;
+}
+
+.c-card-destaque--grade-3 {
+    --color-background: var(--color-primary-90) !important;
+}
+
+.c-card-destaque__icon-container {
+    background: var(--colors-tema-accent-60) !important;
+}
+
+.c-card-destaque__icon {
+    color: var(--color-primary-90) !important;
+}
+
+.c-card-modulo {
+    background-color: #143040 !important;
+}
+
+.title_mod {
+    color: var(--colors-tema-accent-70) !important;
+}
+
+.c-card-modulo__body > .c-paragraph {
+    color: white !important;
+}
+
+.u-medium {
+    line-height: 32px;
+    color: #5c7080 !important;
+    font-weight: 500;
+}
+
+.c-table__thead {
+    background-color: rgb(20, 46, 62) !important;
+    color: white !important;
+}
+
+.icon-header {
+    display: block;
+    width: 64px;
+    height: 64px;
+    font-size: 64px;
+}
+
+.bg-white {
+    background-color: white;
+}
+
+mjx-container[jax="CHTML"][display="true"] {
+    display: inline !important;
+}
+
+.c-table__theader {
+    text-align: left !important;
+    background-color: #143040 !important;
+    color: #edeef0 !important;
+}
+
+.c-table__tdata {
+    text-align: left !important;
+}
+
+.c-card-destaque__body {
+    padding-bottom: 0px !important;
+}
+
+.c-card-destaque__body {
+    padding-bottom: 1rem !important;
+}
+
+.c-card-destaque__icon-container {
+    top: 3% !important;
+}
+
+.pt-sm-5 {
+    padding-top: 0rem !important;
+}
+
+.c-quote.c-quote--dark .c-quote__body .c-quote__icon {
+    fill: var(--colors-tema-accent-70) !important;
+}
+
+@media only screen and (min-width: 768px) {
+    .theme-details {
+        font-size: 0.75rem !important;
+    }
+}
+
+@media only screen and (min-width: 820px) {
+    .table-inline {
+        display: inline-table !important;
+    }
+    .u-code--multiline {
+        overflow-y: hidden !important;
+    }
+}
+
+@media (min-width: 576px) {
+    .pt-sm-5 {
+        padding-top: 3rem !important;
+    }
+}

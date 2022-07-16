@@ -1,0 +1,17 @@
+{
+	"name": "@yduqs-ds/themes",
+	"version": "0.0.1",
+	"description": "YDUQS Design System - Themes",
+	"license": "ISC",
+	"directories": {
+		"css": "css"
+	},
+	"files": [
+		"css/"
+	],
+	"scripts": {
+		"clean": "rm -rf node_modules",
+		"test": "echo \"Error: run tests from root\" && exit 1",
+		"release": "npx semantic-versioning"
+	}
+}

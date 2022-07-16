@@ -1,0 +1,1 @@
+import{r as i,h as t}from"./p-c4393f38.js";const e=class{constructor(t){i(this,t)}render(){return t("li",{class:"c-timeline-item "+(this.last?"c-timeline-item--last":"")},t("div",{class:"c-timeline-item__icon-container"},t("span",{class:"c-timeline-item__icon material-icons"},this.icon)),t("div",{class:"c-timeline-item__body"},t("slot",null)))}};export{e as yduqs_timeline_item}

@@ -1,0 +1,191 @@
+{
+  "colors": {
+    "default": {
+      "neutral": {
+        "0": "#ffffff",
+        "10": "#f5f8fa",
+        "20": "#e1e8ed",
+        "30": "#d8e1e8",
+        "40": "#bfccd6",
+        "50": "#8a9ba8",
+        "60": "#738694",
+        "70": "#5c7080",
+        "80": "#394b59",
+        "90": "#30404d",
+        "100": "#000000"
+      },
+      "error": {
+        "60": "#ff7373",
+        "90": "#a82a2a"
+      },
+      "warning": {
+        "60": "#ffb366",
+        "90": "#a66321"
+      },
+      "success": {
+        "60": "#3dcc91",
+        "90": "#0a6640"
+      },
+      "informational": {
+        "60": "#5799ff",
+        "90": "#10489d"
+      }
+    },
+    "tema": {
+      "primary": {
+        "30": "#F9F3F6",
+        "40": "#E2D8E8",
+        "50": "#C4B3CF",
+        "60": "#A992B9",
+        "70": "#6A5684",
+        "90": "#372D5F"
+      },
+      "accent": {
+        "30": "#ffffff",
+        "60": "#00a3cc",
+        "70": "#007e9e",
+        "90": "#005266"
+      }
+    }
+  },
+  "fontFamilies": {
+    "tema-font-1": "Barlow Condensed",
+    "tema-font-2": "Charter",
+    "tema-font-3": "Inconsolata",
+    "tema-font-4": "Playfair Display",
+    "tema-font-5": "Changa",
+    "default-font": "Roboto"
+  },
+  "lineHeights": {
+    "xsmall": "115%",
+    "small": "130%",
+    "medium": "145%",
+    "large": "160%",
+    "xlarge": "175%"
+  },
+  "fontWeights": {
+    "1": "Regular",
+    "2": "Medium",
+    "3": "Italic",
+    "4": "Medium Italic"
+  },
+  "fontSizes": {
+    "text-small": 14,
+    "text-medium": 16,
+    "text-large": 20,
+    "display-10": 16,
+    "display-20": 20,
+    "display-30": 24,
+    "display-40": 32,
+    "display-50": 40,
+    "display-60": 48,
+    "display-70": 56,
+    "display-80": 64,
+    "display-90": 80
+  },
+  "letterSpacing": {
+    "0": "0%",
+    "1": 0
+  },
+  "paragraphSpacing": {
+    "large": 32,
+    "none": 0,
+    "small": 24,
+    "medium": 28
+  },
+  "borderWidth": {
+    "xsmall": "1",
+    "small": "2",
+    "medium": "3",
+    "large": "4"
+  },
+  "borderRadius": {
+    "none": "0",
+    "xsmall": "2",
+    "small": "4",
+    "medium": "6",
+    "large": "8",
+    "full": "100%"
+  },
+  "system-border": {
+    "width": "2px",
+    "style": "solid",
+    "color": "#007E9E",
+    "radius": "2px",
+    "radius-rounded": "30em"
+  },
+  "system-box-shadow": {
+    "default": "0 0 1px rgba(#000, 0.6)",
+    "high": "0 5px 10px -3px rgba(0, 0, 0, 0.4)",
+    "higher": "0 10px 25px -4px rgba(0, 0, 0, 0.4)",
+    "highest": "0 20px 55px -8px rgba(0, 0, 0, 0.4)"
+  },
+  "system-color": {
+    "default": "#005266",
+    "quiet": "#F9F3F6",
+    "text": "#5C7080",
+    "dark": "#fffff",
+    "background": "#E2D8E8",
+    "light": "#005266",
+    "link": "#005266",
+    "outline": "#00A3CC",
+    "brand": "#372D5F",
+    "info": "#10489D",
+    "warning": "#A66321",
+    "success": "#0A6640",
+    "error": "#A82A2A",
+    "highlight": "#005266",
+    "disabled": "rgba(245,248,249,0.5)",
+    "disabled-background": "rgba(245, 248, 250, 0.2)",
+    "transparent": "transparent"
+  },
+  "system-screen": {
+    "limit": {
+      "xsmall": "20em",
+      "small": "30em",
+      "medium": "48em",
+      "large": "64em",
+      "xlarge": "78em",
+      "super": "116em"
+    }
+  },
+  "system-spacing": {
+    "super": "3em",
+    "xlarge": "2em",
+    "large": "1.5em",
+    "medium": "1em",
+    "small": "0.625em",
+    "xsmall": "0.25em",
+    "tiny": "0.125em"
+  },
+  "system-text": {
+    "font": {
+      "family": {
+        "heading": "Barlow Condensed, Helvetica",
+        "sans-serif": "Roboto, Helvetica",
+        "serif": "serif",
+        "mono": "monospace"
+      },
+      "size": {
+        "super": "2em",
+        "xlarge": "1.5em",
+        "large": "1.25em",
+        "medium": "1em",
+        "small": "0.8em",
+        "xsmall": "0.67em"
+      },
+      "weight": "normal",
+      "weight-heavy": "bold"
+    },
+    "line-height": 1.55
+  },
+  "system-z": {
+    "over": {
+      "content": 100,
+      "control": 200,
+      "page": 300,
+      "screen": 400,
+      "everything": 500
+    }
+  }
+}

@@ -1,0 +1,74 @@
+{
+	"modules": [
+		{
+			"module": "modulo_1",
+			"playlist": [
+				{
+					"id": "0",
+					"title_video": "Tipos de dialectos",
+					"subtitle_video": "",
+					"thumb_video": "https://stensineme.blob.core.windows.net/assets/img/tb01_es.jpg",
+					"link_video": "https://play.yduqs.videolib.live/index.html?token=1183b9708a48494b8a53392164111f22",
+					"paragraph": "",
+					"time": "",
+					"border_bottom": "true"
+				},
+				{
+					"id": "1",
+					"title_video": "Los términos “español” y “castellano”",
+					"subtitle_video": "",
+					"thumb_video": "https://stensineme.blob.core.windows.net/assets/img/tb02_es.jpg",
+					"link_video": "https://play.yduqs.videolib.live/index.html?token=7f375ea78a0c42249e0259a1efdc7214",
+					"paragraph": "",
+					"time": "",
+					"border_bottom": "true"
+				},
+				{
+					"id": "2",
+					"title_video": "El español estándar, el panhispanismo y el español global",
+					"subtitle_video": "",
+					"thumb_video": "https://stensineme.blob.core.windows.net/assets/img/tb01_es.jpg",
+					"link_video": "https://play.yduqs.videolib.live/index.html?token=744935caa84c42f4bded4c0355696ee4",
+					"paragraph": "",
+					"time": "",
+					"border_bottom": "false"
+				}
+			]
+		},
+		{
+			"module": "modulo_2",
+			"playlist": [
+				{
+					"id": "0",
+					"title_video": "Modelo de ejemplaridad y la norma",
+					"subtitle_video": "",
+					"thumb_video": "https://stensineme.blob.core.windows.net/assets/img/tb01_es.jpg",
+					"link_video": "https://play.yduqs.videolib.live/index.html?token=24f96d5644f6481185eb99312e6f4a2e",
+					"paragraph": "",
+					"time": "",
+					"border_bottom": "true"
+				},
+				{
+					"id": "1",
+					"title_video": "El español como una lengua pluricéntrica",
+					"subtitle_video": "",
+					"thumb_video": "https://stensineme.blob.core.windows.net/assets/img/tb02_es.jpg",
+					"link_video": "https://play.yduqs.videolib.live/index.html?token=2c8f6aaf8d8f4d2398f2fe884446dc3a",
+					"paragraph": "",
+					"time": "",
+					"border_bottom": "true"
+				},
+				{
+					"id": "2",
+					"title_video": "Políticas lingüísticas y enseñanza de español en Brasil",
+					"subtitle_video": "",
+					"thumb_video": "https://stensineme.blob.core.windows.net/assets/img/tb01_es.jpg",
+					"link_video": "https://play.yduqs.videolib.live/index.html?token=1867f82b941d4a77b7fdcdad53e9c201",
+					"paragraph": "",
+					"time": "",
+					"border_bottom": "false"
+				}
+			]
+		}
+	]
+}

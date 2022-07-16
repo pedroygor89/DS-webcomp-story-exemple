@@ -1,0 +1,157 @@
+{
+
+	"modules": [
+
+		{
+
+			"module":"modulo_1",
+
+			"playlist":[
+
+				{
+
+					"id":"0",
+
+					"title_video":"Sementes quiescentes e dormentes",
+
+					"subtitle_video":"",
+
+					"thumb_video":"img/capa_1.png",
+
+					"link_video":"https://play.yduqs.videolib.live/index.html?token=228ba8a44dae4982a4c8863661aec06f",
+
+					"paragraph":"",
+
+					"time":"02:05",
+
+					"border_bottom":"true"
+
+				},
+
+				{
+
+					"id": "1",
+
+					"title_video":"Sementes recalcitrantes e ortodoxas",
+
+					"subtitle_video":"",
+
+					"thumb_video":"img/capa_2.png",
+
+					"link_video":"https://play.yduqs.videolib.live/index.html?token=e238c5ab587147b8884c2dfe136ec58e",
+
+					"paragraph":"",
+
+					"time":"01:39",
+
+					"border_bottom":"false"
+
+				}
+
+			]
+
+		},
+
+		{
+
+			"module":"modulo_2",
+
+			"playlist":[
+
+				{
+
+					"id":"0",
+
+					"title_video":"Fatores ambientais que influenciam a germinação",
+
+					"subtitle_video":"",
+
+					"thumb_video":"img/capa_1.png",
+
+					"link_video":"https://play.yduqs.videolib.live/index.html?token=8e09dd546dac4256bb2aeaeb29c9715e",
+
+					"paragraph":"",
+
+					"time":"01:40",
+
+					"border_bottom":"true"
+
+				},
+
+				{
+
+					"id": "1",
+
+					"title_video":"Controle hormonal durante a germinação",
+
+					"subtitle_video":"",
+
+					"thumb_video":"img/capa_2.png",
+
+					"link_video":"https://play.yduqs.videolib.live/index.html?token=c3dd9e45b41b47e2b84a48cbd49c4fda",
+
+					"paragraph":"",
+
+					"time":"01:38",
+
+					"border_bottom":"false"
+
+				}
+
+			]
+
+		},
+
+		{
+
+			"module":"modulo_3",
+
+			"playlist": [
+
+				{
+
+					"id":"0",
+
+					"title_video":"Embriões apomíticos, somáticos e poliembrionia",
+
+					"subtitle_video":"",
+
+					"thumb_video":"img/capa_1.png",
+
+					"link_video":"https://play.yduqs.videolib.live/index.html?token=01d8075de84047f9a55372bab0197768",
+
+					"paragraph":"",
+
+					"time":"02:30",
+
+					"border_bottom":"true"
+
+				},				
+
+				{
+
+					"id": "2",
+
+					"title_video":"Diferenças entre embriões de Monocotiledôneas e de Eudicotiledôneas",
+
+					"subtitle_video":"",
+
+					"thumb_video":"img/capa_2.png",
+
+					"link_video":"https://play.yduqs.videolib.live/index.html?token=7089bcacee964f14bcb556f4c680079c",
+
+					"paragraph":"",
+
+					"time":"03:17",
+
+					"border_bottom":"false"
+
+				}
+
+			]				
+
+		}
+
+	]
+
+}

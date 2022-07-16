@@ -1,0 +1,1 @@
+import{r,h as o,a as s}from"./p-c4393f38.js";const a=class{constructor(o){r(this,o)}render(){return o(s,{class:"c-card-comparativo__body"},o("slot",null))}};export{a as yduqs_card_comparativo_body}

@@ -1,0 +1,88 @@
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
+:root {
+    --text-font-family-heading: 'Barlow Condensed', sans-serif!important;
+}
+
+h1{
+    line-height: 1.194em!important;
+}
+
+.box-legenda{
+    margin-top:32px;
+}
+
+.linha-legenda-feedback{
+    border: 0px;
+    border-top: 1px solid var(--colors-default-neutral-30)
+}
+
+.text-legenda{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 20px;
+    color:var(--color-neutral-70);
+}
+.c-module-cover {
+    font-family: 'Barlow Condensed', sans-serif!important;
+}
+.avatar-professor h4 span{
+    padding: 4px!important;
+}
+.theme_text_bg_with-avatar {
+    margin: 0!important
+}
+.me{
+    margin-left: 2em!important;
+}
+.quarter {
+    width: 25%!important;
+}
+.c-table--half .c-table__theader, .c-table--half .c-table__tdata {
+    width: 25%!important;
+}
+.c-table__tbody{
+    vertical-align: top!important;
+}
+.line1{
+    line-height: 1.3em!important;
+}
+.c-tabs--outlined {
+    border: 2px solid #D06110!important;
+}
+.c-quote__image {
+    min-height: 400px!important;
+}
+.c-module-cover .box-column {
+    background-color: #6a4b2c!important;
+}
+.icon-header {
+    display: block;
+    width: 64px;
+    height: 64px;
+    font-size: 3rem;
+}
+
+
+@media (min-width:300px) and (max-width:768px) {
+
+    .c-card-destaque__body .o-image{
+        border-radius: 0px !important;
+    }
+
+    .c-card-destaque__body .c-image{
+        margin: 0px -33px !important;
+        width: auto !important;
+        border-radius: 0px;
+    }
+
+    .full{
+        margin: 32px -40px !important;
+    }
+}

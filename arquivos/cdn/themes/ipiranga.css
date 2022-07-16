@@ -1,0 +1,19 @@
+:root {
+    --color-primary-30: #e1f1fa;
+    --color-primary-40: #c3e4f6;
+    --color-primary-50: #82c8ec;
+    --color-primary-60: #25ade3;
+    --color-primary-70: #0075cf;
+    --color-primary-90: #006abd;
+    --color-primary-90-alpha: 0, 106, 189;
+
+    --colors-tema-accent-30: #ffe56f;
+    --colors-tema-accent-60: #ffd433;
+    --colors-tema-accent-70: #edb900;
+    --colors-tema-accent-90: #eaa800;
+
+    --color-highlight: var(--color-accent-60);
+    --color-default: var(--color-accent-70);
+    --color-hover: var(--color-accent-90);
+    --color-primary: var(--color-primary-90);
+}

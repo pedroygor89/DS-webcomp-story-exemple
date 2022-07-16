@@ -1,0 +1,1 @@
+import{r,h as a,a as s}from"./p-1ffebba0.js";let e=class{constructor(a){r(this,a)}render(){return a(s,{class:"c-card-comparativo__header"},a("slot",null))}};export{e as yduqs_card_comparativo_header}

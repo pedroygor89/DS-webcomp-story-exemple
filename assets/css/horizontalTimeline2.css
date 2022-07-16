@@ -1,0 +1,228 @@
+:root {
+	/* variaveis do recurso timeline horizontal */
+	/* valores iniciar, esses valores são alterados pelo dataset do html (horizontal-timeline) */
+    --numDots: 40;                                       /*Quantidade de pontos multiplicado por 2 - exemplo com 10 pontos --numDots: 20;*/
+    --parentWidthBase: 0.7;                             /*Valor de espaçamento entre os pontos em relação a quantidade. (valor maximo: 0.8)*/
+    --parentWidth: calc(var(--parentWidthBase)*100vw);  /* Calculo para tamanho da timeline horizontal */
+    --parentMaxWidth: 1000px;                           /* Tamanho da máximo da timeline horizontal */
+    --dotWidth: 25px;                                   /* Largura do ponto da timeline horizontal */
+    --active: #2C3E50;                                /* Cor da Barra ativa timeline horizontal */
+    --inactive: #AEB6BF;                              /* Cor da Barra inativa timeline horizontal */ 
+}
+.flex-parent{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 100%;
+	min-height: 400px;
+	max-width: 1100px;
+}
+
+.input-flex-container {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-wrap: wrap;
+	width: var(--parentWidth);
+	max-width: var(--parentMaxWidth);
+	position: relative;
+	z-index: 0;
+	margin-left: calc( calc(var(--parentWidth) - var(--dotWidth)) / var(--numDots) );
+}
+
+.input-flex-container input[type="radio"] {
+	width: var(--dotWidth);
+	height: var(--dotWidth);
+	background-color: var(--active);
+	position: relative;
+	border-radius: 50%;
+	display: block;
+	-moz-appearance: none;
+	-webkit-appearance: none;
+	appearance: none;
+	cursor: pointer;
+}
+.input-flex-container input[type="radio"]:focus {
+	outline: none;
+}
+.input-flex-container input[type="radio"]:before, .input-flex-container input[type="radio"]:after{
+		content: '';
+		display: block;
+		position: absolute;
+		z-index: -1;
+		top: 50%;
+		transform: translateY(-50%);
+		background-color: var(--active);
+		width: calc(var(--parentWidth) / var(--numDots));
+		height: 5px;
+		max-width: calc(var(--parentMaxWidth) / var(--numDots));
+}
+.input-flex-container input[type="radio"]:before {
+		left:calc(calc(calc(var(--parentWidth)* -1) / var(--numDots)) + calc(var(--dotWidth) / 2));
+}
+.input-flex-container input[type="radio"]:after{
+		right:calc(calc(calc(var(--parentWidth)* -1) / var(--numDots)) + calc(var(--dotWidth) / 2));
+}
+.input-flex-container input[type="radio"]:checked {
+		background-color: var(--active);
+}
+.input-flex-container input[type="radio"]:checked:before {
+		background-color: var(--active);
+}
+.input-flex-container input[type="radio"]:checked:after{
+		background-color: var(--inactive);
+}
+.input-flex-container input[type="radio"]:checked ~ input, .input-flex-container input[type="radio"]:checked ~ input::before,
+.input-flex-container input[type="radio"]:checked ~ input::after {
+		background-color: var(--inactive);
+}
+.input-flex-container input[type="radio"]:checked + .dot-info span{
+		font-size: 18px;
+		font-weight: bold;
+}
+
+.dot-info {
+	width: var(--dotWidth);
+	height: var(--dotWidth);
+	display: block;
+	visibility: hidden;
+	position: relative;
+	z-index: -1;
+	left: calc(calc(calc(calc(var(--parentWidth) - var(--dotWidth)) / var(--numDots)) * -1) - 1px);
+}
+
+.dot-info span {
+	visibility: visible;
+	position: absolute;
+	font-size: 16px;
+}
+.dot-info .year{
+	bottom: -50px;
+	left: 50%;
+	transform: translateX(-50%);
+}
+.dot-info .label{
+	top: -150px;
+	left: 0;
+	transform: rotateZ(-45deg);
+	width: 250px;
+	text-indent: -10px;
+}
+
+#timeline-descriptions-wrapper{
+	width: 100%;
+	margin-top: 140px;
+	font-size: 22px;
+	font-weight: 400;
+	margin-left: calc( calc( calc(var(--parentWidth) * -1) - var(--dotWidth)) / var(--numDots));
+}
+
+#timeline-descriptions-wrapper .timeline-content{
+	margin-top: 0;
+	display: none;
+}
+
+
+@media (min-width: calc(var(--parentMaxWidth) / var(--parentWidthBase))){
+	.input-flex-container {
+		margin-left: calc( calc(var(--parentMaxWidth) / var(--numDots)) + calc(var(--dotWidth) / 2));
+	}
+	.input-flex-container input[type="radio"]:before {
+		left: calc( calc(calc(var(--parentMaxWidth) / var(--numDots)) * -1) + calc(var(--dotWidth) / 2) );
+	}
+	.input-flex-container input[type="radio"]:after{
+		right: calc( calc(calc(var(--parentMaxWidth) / var(--numDots)) * -1) + calc(var(--dotWidth) / 2) );
+	}
+	.dot-info{
+		left: calc(calc(calc( calc(var(--parentMaxWidth) - var(--dotWidth)) / var(--numDots)) * -1) - 1px);
+	}
+	#timeline-descriptions-wrapper {
+		margin-left: calc(calc(calc(var(--parentMaxWidth) / var(--numDots)) *-1) + calc(var(--dotWidth) / 2));
+	}
+}
+
+@media (max-width: 630px) {
+	.flex-parent {
+		justify-content: initial;
+	}
+	.input-flex-container {
+		flex-wrap: wrap;
+		justify-content: center;
+		width: 400px;
+		height: auto;
+		margin-top: 15vh;
+		margin-left: 0;
+		padding-bottom: 30px;
+	}
+	.input-flex-container input[type="radio"], .dot-info{
+		width: 60px;
+		height: 60px;
+		margin: 0 10px 50px;
+	}
+	.input-flex-container input[type="radio"]{
+		background-color: transparent !important;
+		z-index: 1;
+	}
+	.input-flex-container input[type="radio"]:before, .input-flex-container input[type="radio"]:after{
+		content: none;
+	}
+	.input-flex-container input[type="radio"]:checked + .dot-info {
+		background-color: var(--active);
+	}
+	.input-flex-container input[type="radio"]:checked + .dot-info span .year{
+		font-size: 14px;
+	}
+	.input-flex-container input[type="radio"]:checked + .dot-info span .label {
+		font-size: 12px;
+	}
+	.dot-info {
+		visibility: visible;
+		border-radius: 50%;
+		z-index: 0 ;
+		left: 0;
+		margin-left: -70px;
+		background-color: var(--inactive);
+	}
+	.dot-info span .year{
+		top: 0;
+		left: 0;
+		transform: none;
+		width: 100%;
+		height: 100%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		color: #ECF0F1;
+	}
+	.dot-info span .label {
+		top: calc(100% + 5px);
+		left: 50%;
+		transform: translateX(-50%);
+		text-indent: 0;
+		text-align: center;
+	}
+	#timeline-descriptions-wrapper {
+		margin-top: 30px;
+		margin-left: 0;
+		text-align: center;
+	}
+}
+
+@media (max-width: 480px) {
+	.input-flex-container {
+		width: 340px;
+	}
+}
+
+@media (max-width: 400px){
+	.input-flex-container {
+		width: 300px;
+	}
+}
+
+.selected-horizontal-timeline {
+	margin-top: 0;
+	display: block !important;
+}

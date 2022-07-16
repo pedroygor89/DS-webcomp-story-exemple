@@ -1,0 +1,1 @@
+import{r as s,h as r}from"./p-22350d54.js";const t=class{constructor(r){s(this,r)}render(){return r("div",{class:"c-card__item o-media"},r("slot",null))}};export{t as yduqs_media_item}

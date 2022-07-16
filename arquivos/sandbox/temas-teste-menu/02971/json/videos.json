@@ -1,0 +1,197 @@
+{
+
+	"modules": [
+
+		{
+
+			"module":"modulo_1",
+
+			"playlist":[
+
+				{
+
+					"id":"0",
+
+					"title_video":"O que é o citoesqueleto?",
+
+					"subtitle_video":"Profª. Mildred Medeiros",
+
+					"thumb_video":"img/ve1.jpg",
+
+					"link_video":"https://play.yduqs.videolib.live/index.html?token=0da198d3a58f4a7b93a8c651c2a98bf0",
+
+					"paragraph":"",
+
+					"time":"02:09",
+
+					"border_bottom":"true"
+
+				},
+
+				{
+
+					"id": "1",
+
+					"title_video":"Como se estruturam o citoesqueleto?",
+
+					"subtitle_video":"Profª. Mildred Medeiros",
+
+					"thumb_video":"img/ve2.jpg",
+
+					"link_video":"https://play.yduqs.videolib.live/index.html?token=9ab226fe2c6447f9beb0a964b4d6e5a5",
+
+					"paragraph":"",
+
+					"time":"03:07",
+
+					"border_bottom":"false"
+
+				}
+
+			]
+
+		},
+
+		{
+
+			"module":"modulo_2",
+
+			"playlist": [
+
+				{
+
+					"id":"0",
+
+					"title_video":"O que é o retículo endoplasmático rugoso?",
+
+					"subtitle_video":"Profª. Mildred Medeiros",
+
+					"thumb_video":"img/ve1.jpg",
+
+					"link_video":"https://play.yduqs.videolib.live/index.html?token=0e2f4613c0a64197bb99044804bff9c0",
+
+					"paragraph":"",
+
+					"time":"03:38",
+
+					"border_bottom":"true"
+
+				},
+
+				{
+
+					"id": "1",
+
+					"title_video":"O que é o retículo endoplasmático liso?",
+
+					"subtitle_video":"Profª. Mildred Medeiros",
+
+					"thumb_video":"img/ve2.jpg",
+
+					"link_video":"https://play.yduqs.videolib.live/index.html?token=a6ca60d90be643a4972c67bfc6222622",
+
+					"paragraph":"",
+
+					"time":"03:28",
+
+					"border_bottom":"true"
+
+				},
+
+				{
+
+					"id": "2",
+
+					"title_video":"Como ocorre a integração do morfofuncional do retículo endoplasmático rugoso e do aparelho de Golgi",
+
+					"subtitle_video":"Profª. Mildred Medeiros",
+
+					"thumb_video":"img/ve1.jpg",
+
+					"link_video":"https://play.yduqs.videolib.live/index.html?token=d7a2652e333d46ada89c0a3294d3e99d",
+
+					"paragraph":"",
+
+					"time":"03:42",
+
+					"border_bottom":"false"
+
+				}
+
+			]
+
+		},
+
+		{
+
+			"module":"modulo_3",
+
+			"playlist": [
+
+				{
+
+					"id":"0",
+
+					"title_video":"Como os lisossomos se caracterizam com relação à sua ultraestrutura, composição química e aspectos funcionais?",
+
+					"subtitle_video":"Profª. Mildred Medeiros",
+
+					"thumb_video":"img/ve1.jpg",
+
+					"link_video":"https://play.yduqs.videolib.live/index.html?token=98f89a4d0115453eb5ae2ab28deb1fc9",
+
+					"paragraph":"",
+
+					"time":"02:56",
+
+					"border_bottom":"true"
+
+				},
+
+				{
+
+					"id": "1",
+
+					"title_video":"Como ocorre a biogênese dos lisossomos e dos endossomos e a inter-relação entre eles?",
+
+					"subtitle_video":"Profª. Mildred Medeiros",
+
+					"thumb_video":"img/ve2.jpg",
+
+					"link_video":"https://play.yduqs.videolib.live/index.html?token=879043c5c94446dab905087a5e063925",
+
+					"paragraph":"",
+
+					"time":"04:02",
+
+					"border_bottom":"true"
+
+				},
+
+				{
+
+					"id": "2",
+
+					"title_video":"Qual organela realiza a função digestiva dos vegetais?",
+
+					"subtitle_video":"Profª. Mildred Medeiros",
+
+					"thumb_video":"img/ve1.jpg",
+
+					"link_video":"https://play.yduqs.videolib.live/index.html?token=7f646fd00bd44c5cb583f0d2285397a9",
+
+					"paragraph":"",
+
+					"time":"03:15",
+
+					"border_bottom":"false"
+
+				}
+
+			]
+
+		}
+
+	]
+
+}

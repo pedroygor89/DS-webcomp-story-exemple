@@ -1,0 +1,1 @@
+import{r as s,h as t}from"./p-321628b3.js";let r=class{constructor(t){s(this,t)}render(){return t("div",{class:`box-listas-${this.tipo} ${this.tamanho}`},t("slot",null))}};export{r as yduqs_listas}

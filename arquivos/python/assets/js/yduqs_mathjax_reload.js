@@ -1,0 +1,1 @@
+function waitForMath(){void 0!==MathJax.typeset()?(MathJax.typeset(),clearTimeout(waitForMath)):setTimeout(waitForMath,250)}

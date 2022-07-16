@@ -1,0 +1,437 @@
+{
+    "$colors-default-neutral-0": {
+        "value": "#ffffff"
+    },
+    "$colors-default-neutral-10": {
+        "value": "#f5f8fa"
+    },
+    "$colors-default-neutral-20": {
+        "value": "#e1e8ed"
+    },
+    "$colors-default-neutral-30": {
+        "value": "#d8e1e8"
+    },
+    "$colors-default-neutral-40": {
+        "value": "#bfccd6"
+    },
+    "$colors-default-neutral-50": {
+        "value": "#8a9ba8"
+    },
+    "$colors-default-neutral-60": {
+        "value": "#738694"
+    },
+    "$colors-default-neutral-70": {
+        "value": "#5c7080"
+    },
+    "$colors-default-neutral-80": {
+        "value": "#394b59"
+    },
+    "$colors-default-neutral-90": {
+        "value": "#30404d"
+    },
+    "$colors-default-neutral-100": {
+        "value": "#000000"
+    },
+    "$colors-default-error-30": {
+        "value": "#FFEAEA"
+    },
+    "$colors-default-error-60": {
+        "value": "#ff7373"
+    },
+    "$colors-default-error-90": {
+        "value": "#a82a2a"
+    },
+    "$colors-default-warning-30": {
+        "value": "#FFF4E8"
+    },
+    "$colors-default-warning-60": {
+        "value": "#ffb366"
+    },
+    "$colors-default-warning-90": {
+        "value": "#914C07"
+    },
+    "$colors-default-success-30": {
+        "value": "#E2F7EF"
+    },
+    "$colors-default-success-60": {
+        "value": "#3dcc91"
+    },
+    "$colors-default-success-90": {
+        "value": "#0a6640"
+    },
+    "$colors-default-informational-30": {
+        "value": "#E6F0FF"
+    },
+    "$colors-default-informational-60": {
+        "value": "#5799ff"
+    },
+    "$colors-default-informational-90": {
+        "value": "#10489d"
+    },
+    "$colors-tema-primary-30": {
+        "value": "#F9F3F6"
+    },
+    "$colors-tema-primary-40": {
+        "value": "#E2D8E8"
+    },
+    "$colors-tema-primary-50": {
+        "value": "#C4B3CF"
+    },
+    "$colors-tema-primary-60": {
+        "value": "#A992B9"
+    },
+    "$colors-tema-primary-70": {
+        "value": "#6A5684"
+    },
+    "$colors-tema-primary-90": {
+        "value": "#372D5F"
+    },
+    "$colors-tema-accent-30": {
+        "value": "#ffffff"
+    },
+    "$colors-tema-accent-60": {
+        "value": "#00a3cc"
+    },
+    "$colors-tema-accent-70": {
+        "value": "#007e9e"
+    },
+    "$colors-tema-accent-90": {
+        "value": "#005266"
+    },
+    "$font-families-tema-font-1": {
+        "value": "Barlow Condensed"
+    },
+    "$font-families-tema-font-2": {
+        "value": "Charter"
+    },
+    "$font-families-tema-font-3": {
+        "value": "Inconsolata"
+    },
+    "$font-families-tema-font-4": {
+        "value": "Playfair Display"
+    },
+    "$font-families-tema-font-5": {
+        "value": "Changa"
+    },
+    "$font-families-default-font": {
+        "value": "Roboto"
+    },
+    "$line-heights-xsmall": {
+        "value": "115%"
+    },
+    "$line-heights-small": {
+        "value": "130%"
+    },
+    "$line-heights-medium": {
+        "value": "145%"
+    },
+    "$line-heights-large": {
+        "value": "160%"
+    },
+    "$line-heights-xlarge": {
+        "value": "175%"
+    },
+    "$font-weights-1": {
+        "value": "Regular"
+    },
+    "$font-weights-2": {
+        "value": "Medium"
+    },
+    "$font-weights-3": {
+        "value": "Italic"
+    },
+    "$font-weights-4": {
+        "value": "Medium Italic"
+    },
+    "$font-sizes-text-small": {
+        "value": "14px"
+    },
+    "$font-sizes-text-medium": {
+        "value": "16px"
+    },
+    "$font-sizes-text-large": {
+        "value": "20px"
+    },
+    "$font-sizes-display-10": {
+        "value": "16px"
+    },
+    "$font-sizes-display-20": {
+        "value": "20px"
+    },
+    "$font-sizes-display-30": {
+        "value": "24px"
+    },
+    "$font-sizes-display-40": {
+        "value": "32px"
+    },
+    "$font-sizes-display-50": {
+        "value": "40px"
+    },
+    "$font-sizes-display-60": {
+        "value": "48px"
+    },
+    "$font-sizes-display-70": {
+        "value": "56px"
+    },
+    "$font-sizes-display-80": {
+        "value": "64px"
+    },
+    "$font-sizes-display-90": {
+        "value": "80px"
+    },
+    "$letter-spacing-0": {
+        "value": "0%"
+    },
+    "$paragraph-spacing-large": {
+        "value": "32px"
+    },
+    "$paragraph-spacing-none": {
+        "value": "0"
+    },
+    "$paragraph-spacing-small": {
+        "value": "24px"
+    },
+    "$paragraph-spacing-medium": {
+        "value": "28px"
+    },
+    "$border-width-xsmall": {
+        "value": "1px"
+    },
+    "$border-width-small": {
+        "value": "2px"
+    },
+    "$border-width-medium": {
+        "value": "3px"
+    },
+    "$border-width-large": {
+        "value": "4px"
+    },
+    "$border-radius-none": {
+        "value": "0"
+    },
+    "$border-radius-xsmall": {
+        "value": "2px"
+    },
+    "$border-radius-small": {
+        "value": "4px"
+    },
+    "$border-radius-medium": {
+        "value": "6px"
+    },
+    "$border-radius-large": {
+        "value": "8px"
+    },
+    "$border-radius-full": {
+        "value": "100%"
+    },
+    "$system-border-width-xlarge": {
+        "value": "4px"
+    },
+    "$system-border-width-large": {
+        "value": "3px"
+    },
+    "$system-border-width-medium": {
+        "value": "2px"
+    },
+    "$system-border-width-small": {
+        "value": "1px"
+    },
+    "$system-border-style": {
+        "value": "solid"
+    },
+    "$system-border-color": {
+        "value": "#007E9E"
+    },
+    "$system-border-radius-none": {
+        "value": "0"
+    },
+    "$system-border-radius-xsmall": {
+        "value": "2px"
+    },
+    "$system-border-radius-small": {
+        "value": "4px"
+    },
+    "$system-border-radius-medium": {
+        "value": "6px"
+    },
+    "$system-border-radius-large": {
+        "value": "8px"
+    },
+    "$system-border-radius-rounded": {
+        "value": "30em"
+    },
+    "$system-box-shadow-default": {
+        "value": "0 0 5px 0 rgba(0, 0, 0, 0.2)"
+    },
+    "$system-box-shadow-high": {
+        "value": "0 5px 10px -3px rgba(0, 0, 0, 0.2)"
+    },
+    "$system-box-shadow-higher": {
+        "value": "0 10px 25px -4px rgba(0, 0, 0, 0.2)"
+    },
+    "$system-box-shadow-highest": {
+        "value": "0 20px 55px -8px rgba(0, 0, 0, 0.2)"
+    },
+    "$system-color-default": {
+        "value": "#005266"
+    },
+    "$system-color-quiet": {
+        "value": "#F9F3F6"
+    },
+    "$system-color-text": {
+        "value": "#5C7080"
+    },
+    "$system-color-dark": {
+        "value": "#fffff"
+    },
+    "$system-color-background": {
+        "value": "#E2D8E8"
+    },
+    "$system-color-light": {
+        "value": "#005266"
+    },
+    "$system-color-link": {
+        "value": "#005266"
+    },
+    "$system-color-outline": {
+        "value": "#00A3CC"
+    },
+    "$system-color-brand": {
+        "value": "#372D5F"
+    },
+    "$system-color-info": {
+        "value": "#10489D"
+    },
+    "$system-color-warning": {
+        "value": "#A66321"
+    },
+    "$system-color-success": {
+        "value": "#0A6640"
+    },
+    "$system-color-error": {
+        "value": "#A82A2A"
+    },
+    "$system-color-highlight": {
+        "value": "#005266"
+    },
+    "$system-color-disabled": {
+        "value": "rgba(245,248,249,0.5)"
+    },
+    "$system-color-disabled-background": {
+        "value": "rgba(245, 248, 250, 0.2)"
+    },
+    "$system-color-transparent": {
+        "value": "transparent"
+    },
+    "$system-screen-limit-xsmall": {
+        "value": "20em"
+    },
+    "$system-screen-limit-small": {
+        "value": "30em"
+    },
+    "$system-screen-limit-medium": {
+        "value": "48em"
+    },
+    "$system-screen-limit-large": {
+        "value": "64em"
+    },
+    "$system-screen-limit-xlarge": {
+        "value": "78em"
+    },
+    "$system-screen-limit-super": {
+        "value": "116em"
+    },
+    "$system-spacing-super": {
+        "value": "3em"
+    },
+    "$system-spacing-xlarge": {
+        "value": "2em"
+    },
+    "$system-spacing-large": {
+        "value": "1.5em"
+    },
+    "$system-spacing-medium": {
+        "value": "1em"
+    },
+    "$system-spacing-small": {
+        "value": "0.625em"
+    },
+    "$system-spacing-xsmall": {
+        "value": "0.5em"
+    },
+    "$system-spacing-tiny": {
+        "value": "0.25em"
+    },
+    "$system-text-font-family-heading": {
+        "value": "Barlow Condensed, Helvetica"
+    },
+    "$system-text-font-family-sans-serif": {
+        "value": "Roboto, Helvetica"
+    },
+    "$system-text-font-family-serif": {
+        "value": "serif"
+    },
+    "$system-text-font-family-mono": {
+        "value": "monospace"
+    },
+    "$system-text-font-size-super": {
+        "value": "2.5em"
+    },
+    "$system-text-font-size-xlarge": {
+        "value": "2em"
+    },
+    "$system-text-font-size-large": {
+        "value": "1.5em"
+    },
+    "$system-text-font-size-medium": {
+        "value": "1.25em"
+    },
+    "$system-text-font-size-small": {
+        "value": "1em"
+    },
+    "$system-text-font-size-xsmall": {
+        "value": "0.875em"
+    },
+    "$system-text-font-weight": {
+        "value": "normal"
+    },
+    "$system-text-font-weight-heavy": {
+        "value": "bold"
+    },
+    "$system-text-title-font-size-super": {
+        "value": "4.5em"
+    },
+    "$system-text-title-font-size-xlarge": {
+        "value": "4em"
+    },
+    "$system-text-title-font-size-large": {
+        "value": "3.5em"
+    },
+    "$system-text-title-font-size-medium": {
+        "value": "3em"
+    },
+    "$system-text-title-font-size-small": {
+        "value": "2.5em"
+    },
+    "$system-text-title-font-size-xsmall": {
+        "value": "2em"
+    },
+    "$system-text-line-height": {
+        "value": "1.75"
+    },
+    "$system-z-over-content": {
+        "value": "100"
+    },
+    "$system-z-over-control": {
+        "value": "200"
+    },
+    "$system-z-over-page": {
+        "value": "300"
+    },
+    "$system-z-over-screen": {
+        "value": "400"
+    },
+    "$system-z-over-everything": {
+        "value": "500"
+    }
+}

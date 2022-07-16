@@ -1,0 +1,212 @@
+{
+
+	"modules": [
+
+		{
+
+			"module":"modulo_1",
+
+			"playlist":[
+
+				{
+
+					"id":"0",
+
+					"title_video":"Características da farinha de penas",
+
+					"subtitle_video":"",
+
+					"thumb_video":"img/thumb.jpg",
+
+					"link_video":"https://play.yduqs.videolib.live/index.html?token=5cd7a1a469834f49838ef09caf224954",
+
+					"paragraph":"",
+
+					"time":"3m 53s",
+
+					"border_bottom":""
+
+				},
+
+				{
+
+					"id": "1",
+
+					"title_video":"Fatores que interferem na qualidade da farinha de penas",
+
+					"subtitle_video":"",
+
+					"thumb_video":"img/thumb.jpg",
+
+					"link_video":"https://play.yduqs.videolib.live/index.html?token=480452d0a5b349539fcd2bb9b5953bcb",
+
+					"paragraph":"",
+
+					"time":"3m 37s",
+
+					"border_bottom":""
+
+				}
+			]
+
+		},
+
+		{
+
+			"module":"modulo_2",
+
+			"playlist": [
+
+				{
+
+					"id":"0",
+
+					"title_video":"Características da farinha de vísceras",
+
+					"subtitle_video":"",
+
+					"thumb_video":"img/thumb.jpg",
+
+					"link_video":"https://play.yduqs.videolib.live/index.html?token=097c98c6c875429489a80a5943553d85",
+
+					"paragraph":"",
+
+					"time":"3m 33s",
+
+					"border_bottom":"true"
+
+				},
+
+				{
+
+					"id": "1",
+
+					"title_video":"Fatores que interferem na qualidade da farinha de vísceras",
+
+					"subtitle_video":"",
+
+					"thumb_video":"img/thumb.jpg",
+
+					"link_video":"https://play.yduqs.videolib.live/index.html?token=a59f639907604b44b40bc3a43dce1a10",
+
+					"paragraph":"",
+
+					"time":"4m 06s",
+
+					"border_bottom":"true"
+
+				}
+
+			]
+
+				
+
+		},
+
+		{
+
+			"module":"modulo_3",
+
+			"playlist": [
+
+				{
+
+					"id":"0",
+
+					"title_video":"Características dos incubatórios de aves e seus resíduos",
+
+					"subtitle_video":"",
+
+					"thumb_video":"img/thumb.jpg",
+
+					"link_video":"https://play.yduqs.videolib.live/index.html?token=49997f1ca0ea4e1cbcf0eaee706268d9",
+
+					"paragraph":"",
+
+					"time":"4m 13s",
+
+					"border_bottom":"true"
+
+				},
+
+				{
+
+					"id": "1",
+
+					"title_video":"Qualidade da farinha de resíduos de incubatório",
+
+					"subtitle_video":"",
+
+					"thumb_video":"img/thumb.jpg",
+
+					"link_video":"https://play.yduqs.videolib.live/index.html?token=884927d6a3bb4309b2b8fb314a4bb8f3",
+
+					"paragraph":"",
+
+					"time":"5m 11s",
+
+					"border_bottom":"true"
+
+				}
+
+			]
+
+				
+
+		},
+
+		{
+
+			"module":"modulo_4",
+
+			"playlist": [
+
+				{
+
+					"id":"0",
+
+					"title_video":"Características do óleo de aves",
+
+					"subtitle_video":"",
+
+					"thumb_video":"img/thumb.jpg",
+
+					"link_video":"https://play.yduqs.videolib.live/index.html?token=23be655643364b249dd97083bf085da6",
+
+					"paragraph":"",
+
+					"time":"4m 52s",
+
+					"border_bottom":"true"
+
+				},
+
+				{
+
+					"id": "1",
+
+					"title_video":"Fatores que interferem na qualidade do óleo de aves",
+
+					"subtitle_video":"",
+
+					"thumb_video":"img/thumb.jpg",
+
+					"link_video":"https://play.yduqs.videolib.live/index.html?token=376c8135bbbc428dbb933cd4b71233a1",
+
+					"paragraph":"",
+
+					"time":"5m 26s",
+
+					"border_bottom":"true"
+
+				}
+
+			]
+
+				
+
+		}
+
+	]
+
+}

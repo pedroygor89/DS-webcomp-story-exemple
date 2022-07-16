@@ -1,0 +1,165 @@
+.box-compiler{
+    display: flex;
+    width: 100%;
+    min-height: 500px;
+}
+
+.container-input-compiler{
+    display: flex;
+    min-width: 60%;
+}
+
+.input-txt-compiler{
+    width: 100%;
+    height: 100%;
+    padding: 10px 20px;
+    background-color: #23272c;
+    color: #f8f9fa !important;
+    border: none;
+    font-size: large;
+}
+
+.div-top-input{
+  background-color: #2C3E50;
+  color: white !important;
+  position: relative;
+  left: 0%;
+  height: 50px;
+  min-width: 40%;
+  top: 0px;
+  padding: 0 10px;
+
+}
+
+.input-txt-keyboard{
+    position: relative;
+    top: 50px;
+    left: -40%;
+    height: 150px;
+    min-width: 40%;
+    background-color: black;
+    color: white !important;
+    border: none;
+    font-size: large;
+    padding: 10px;
+    outline: none;
+}
+
+.div-top-console{
+    background-color: #2C3E50;
+    color: white !important;
+    position: relative;
+    left: -80%;
+    height: 50px;
+    min-width: 40%;
+    top: 200px;
+    padding: 0 10px;
+}
+
+.console-compiler {
+    position: relative;
+    top: 250px;
+    left: -120%;
+    height: 250px;
+    min-width: 40%;
+    background-color: black;
+    color: white !important;
+    overflow: auto;
+    font-size: large;
+    padding: 10px;
+}
+
+.nav-code-top {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: #343a40;
+}
+
+.circle-compiler {
+    height: 20px;
+    width: 20px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.circle-compiler-red {
+    background-color: #f44336;
+}
+
+.circle-compiler-yellow {
+    background-color: #ffeb3b;
+}
+
+.circle-compiler-green {
+    background-color: #4caf50;
+}
+
+.error-compiler{
+    color: #f44336;
+}
+
+.box-btns-compiler {
+  display: flex;
+  position: absolute;
+  left: 60%;
+  top: 0px;
+  height: 100%;
+}
+
+.btn-compiled{
+  display: flex;
+  color: white !important;
+  align-items: center;
+  padding: 0 10px;
+}
+
+.btn-input-values{
+  display: flex;
+  color: white !important;
+  align-items: center;
+  padding: 0 10px;
+}
+
+.div-run{
+  background-color: #343a40;
+}
+
+.div-run .btn{
+  border-radius: 0;
+}
+
+
+/* Load Console */
+.lds-dual-ring {
+    width: 80px;
+    height: 80px;
+    margin: auto;
+  }
+  .lds-dual-ring:after {
+    content: " ";
+    display: block;
+    width: 50px;
+    height: 50px;
+    margin: 8px;
+    border-radius: 50%;
+    border: 6px solid #343a40;
+    border-color: #343a40 transparent #343a40 transparent;
+    animation: lds-dual-ring 1.2s linear infinite;
+  }
+  @keyframes lds-dual-ring {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
+  .active-compiler{
+    background-color: black;
+  }
+
+  .ace_scroller{
+    margin: 0 5px;
+  }

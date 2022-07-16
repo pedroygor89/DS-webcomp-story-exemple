@@ -1,0 +1,1 @@
+import{r as t,h as s}from"./p-c4393f38.js";const i=class{constructor(s){t(this,s),this.horizontal=!1}render(){return s("ol",{class:`o-timeline ${this.horizontal?"o-timeline--horizontal":""} ${this.dark?"o-timeline--dark":""}`},s("slot",null))}};export{i as yduqs_timeline}

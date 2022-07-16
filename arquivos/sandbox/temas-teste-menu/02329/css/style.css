@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Petrona:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
+:root {
+    --text-font-family-heading: 'Petrona', serif!important;
+}
+
+h1{
+    line-height: 1.194em!important;
+}
+.c-module-cover {
+    font-family: 'Petrona', serif!important;
+}
+.avatar-professor h4 span{
+    padding: 4px!important;
+}
+.theme_text_bg_with-avatar {
+    margin: 0!important
+}
+.me{
+    margin-left: 2em!important;
+}
+.quarter {
+    width: 25%!important;
+}
+.c-table--half .c-table__theader, .c-table--half .c-table__tdata {
+    width: 25%!important;
+}
+.c-table__tbody{
+    vertical-align: top!important;
+}

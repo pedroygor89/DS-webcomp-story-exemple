@@ -1,0 +1,1 @@
+import{r,h as s}from"./p-c4393f38.js";const e=class{constructor(s){r(this,s)}render(){return s("header",{class:"c-card__header"},s("slot",null))}};export{e as yduqs_card_header}

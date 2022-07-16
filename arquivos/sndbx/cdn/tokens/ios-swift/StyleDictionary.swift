@@ -1,0 +1,141 @@
+
+//
+// StyleDictionary.swift
+//
+// Do not edit directly
+// Generated on Wed, 21 Apr 2021 20:29:16 GMT
+//
+
+
+import UIKit
+
+public class StyleDictionary {
+    public static let borderRadiusFull = 100%
+    public static let borderRadiusLarge = 8
+    public static let borderRadiusMedium = 6
+    public static let borderRadiusNone = 0
+    public static let borderRadiusSmall = 4
+    public static let borderRadiusXsmall = 2
+    public static let borderWidthLarge = 4
+    public static let borderWidthMedium = 3
+    public static let borderWidthSmall = 2
+    public static let borderWidthXsmall = 1
+    public static let colorsDefaultError60 = #ff7373
+    public static let colorsDefaultError90 = #a82a2a
+    public static let colorsDefaultInformational60 = #5799ff
+    public static let colorsDefaultInformational90 = #10489d
+    public static let colorsDefaultNeutral0 = #ffffff
+    public static let colorsDefaultNeutral10 = #f5f8fa
+    public static let colorsDefaultNeutral100 = #000000
+    public static let colorsDefaultNeutral20 = #e1e8ed
+    public static let colorsDefaultNeutral30 = #d8e1e8
+    public static let colorsDefaultNeutral40 = #bfccd6
+    public static let colorsDefaultNeutral50 = #8a9ba8
+    public static let colorsDefaultNeutral60 = #738694
+    public static let colorsDefaultNeutral70 = #5c7080
+    public static let colorsDefaultNeutral80 = #394b59
+    public static let colorsDefaultNeutral90 = #30404d
+    public static let colorsDefaultSuccess60 = #3dcc91
+    public static let colorsDefaultSuccess90 = #0a6640
+    public static let colorsDefaultWarning60 = #ffb366
+    public static let colorsDefaultWarning90 = #a66321
+    public static let colorsTemaAccent30 = #ffffff
+    public static let colorsTemaAccent60 = #00a3cc
+    public static let colorsTemaAccent70 = #007e9e
+    public static let colorsTemaAccent90 = #005266
+    public static let colorsTemaPrimary30 = #F9F3F6
+    public static let colorsTemaPrimary40 = #E2D8E8
+    public static let colorsTemaPrimary50 = #C4B3CF
+    public static let colorsTemaPrimary60 = #A992B9
+    public static let colorsTemaPrimary70 = #6A5684
+    public static let colorsTemaPrimary90 = #372D5F
+    public static let fontFamiliesDefaultFont = Roboto
+    public static let fontFamiliesTemaFont1 = Barlow Condensed
+    public static let fontFamiliesTemaFont2 = Charter
+    public static let fontFamiliesTemaFont3 = Inconsolata
+    public static let fontFamiliesTemaFont4 = Playfair Display
+    public static let fontFamiliesTemaFont5 = Changa
+    public static let fontSizesDisplay10 = 16
+    public static let fontSizesDisplay20 = 20
+    public static let fontSizesDisplay30 = 24
+    public static let fontSizesDisplay40 = 32
+    public static let fontSizesDisplay50 = 40
+    public static let fontSizesDisplay60 = 48
+    public static let fontSizesDisplay70 = 56
+    public static let fontSizesDisplay80 = 64
+    public static let fontSizesDisplay90 = 80
+    public static let fontSizesTextLarge = 20
+    public static let fontSizesTextMedium = 16
+    public static let fontSizesTextSmall = 14
+    public static let fontWeights1 = Regular
+    public static let fontWeights2 = Medium
+    public static let fontWeights3 = Italic
+    public static let fontWeights4 = Medium Italic
+    public static let letterSpacing0 = 0%
+    public static let lineHeightsLarge = 160%
+    public static let lineHeightsMedium = 145%
+    public static let lineHeightsSmall = 130%
+    public static let lineHeightsXlarge = 175%
+    public static let lineHeightsXsmall = 115%
+    public static let paragraphSpacingLarge = 32
+    public static let paragraphSpacingMedium = 28
+    public static let paragraphSpacingNone = 0
+    public static let paragraphSpacingSmall = 24
+    public static let systemBorderColor = #007E9E
+    public static let systemBorderRadius = 2px
+    public static let systemBorderRadiusRounded = 30em
+    public static let systemBorderStyle = solid
+    public static let systemBorderWidth = 2px
+    public static let systemBoxShadowDefault = 0 0 1px rgba(#000, 0.6)
+    public static let systemBoxShadowHigh = 0 5px 10px -3px rgba(0, 0, 0, 0.4)
+    public static let systemBoxShadowHigher = 0 10px 25px -4px rgba(0, 0, 0, 0.4)
+    public static let systemBoxShadowHighest = 0 20px 55px -8px rgba(0, 0, 0, 0.4)
+    public static let systemColorBackground = #E2D8E8
+    public static let systemColorBrand = #372D5F
+    public static let systemColorDark = #fffff
+    public static let systemColorDefault = #005266
+    public static let systemColorDisabled = rgba(245,248,249,0.5)
+    public static let systemColorDisabledBackground = rgba(245, 248, 250, 0.2)
+    public static let systemColorError = #A82A2A
+    public static let systemColorHighlight = #005266
+    public static let systemColorInfo = #10489D
+    public static let systemColorLight = #005266
+    public static let systemColorLink = #005266
+    public static let systemColorOutline = #00A3CC
+    public static let systemColorQuiet = #F9F3F6
+    public static let systemColorSuccess = #0A6640
+    public static let systemColorText = #5C7080
+    public static let systemColorTransparent = transparent
+    public static let systemColorWarning = #A66321
+    public static let systemScreenLimitLarge = 64em
+    public static let systemScreenLimitMedium = 48em
+    public static let systemScreenLimitSmall = 30em
+    public static let systemScreenLimitSuper = 116em
+    public static let systemScreenLimitXlarge = 78em
+    public static let systemScreenLimitXsmall = 20em
+    public static let systemSpacingLarge = 1.5em
+    public static let systemSpacingMedium = 1em
+    public static let systemSpacingSmall = 0.625em
+    public static let systemSpacingSuper = 3em
+    public static let systemSpacingTiny = 0.125em
+    public static let systemSpacingXlarge = 2em
+    public static let systemSpacingXsmall = 0.25em
+    public static let systemTextFontFamilyHeading = Barlow Condensed, Helvetica
+    public static let systemTextFontFamilyMono = monospace
+    public static let systemTextFontFamilySansSerif = Roboto, Helvetica
+    public static let systemTextFontFamilySerif = serif
+    public static let systemTextFontSizeLarge = 1.25em
+    public static let systemTextFontSizeMedium = 1em
+    public static let systemTextFontSizeSmall = 0.8em
+    public static let systemTextFontSizeSuper = 2em
+    public static let systemTextFontSizeXlarge = 1.5em
+    public static let systemTextFontSizeXsmall = 0.67em
+    public static let systemTextFontWeight = normal
+    public static let systemTextFontWeightHeavy = bold
+    public static let systemTextLineHeight = 1.55
+    public static let systemZOverContent = 100
+    public static let systemZOverControl = 200
+    public static let systemZOverEverything = 500
+    public static let systemZOverPage = 300
+    public static let systemZOverScreen = 400
+}

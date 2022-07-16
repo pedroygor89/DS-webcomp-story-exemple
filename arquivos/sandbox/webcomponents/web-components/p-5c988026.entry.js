@@ -1,0 +1,1 @@
+import{r,h as s}from"./p-321628b3.js";let t=class{constructor(s){r(this,s)}render(){return s("div",{class:"box-teoria"},s("slot",null))}};export{t as yduqs_teoria}

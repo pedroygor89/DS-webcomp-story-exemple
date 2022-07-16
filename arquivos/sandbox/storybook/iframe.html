@@ -1,0 +1,341 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><title>Storybook</title><meta name="viewport" content="width=device-width,initial-scale=1"><base target="_parent"><style>:not(.sb-show-main) > .sb-main,
+  :not(.sb-show-nopreview) > .sb-nopreview,
+  :not(.sb-show-errordisplay) > .sb-errordisplay {
+    display: none;
+  }
+
+  .sb-show-main.sb-main-centered {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+  }
+
+  .sb-show-main.sb-main-centered #root {
+    box-sizing: border-box;
+    margin: auto;
+    padding: 1rem;
+    max-height: 100%; /* Hack for centering correctly in IE11 */
+  }
+
+  /* Vertical centering fix for IE11 */
+  @media screen and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+    .sb-show-main.sb-main-centered:after {
+      content: '';
+      min-height: inherit;
+      font-size: 0;
+    }
+  }
+
+  .sb-show-main.sb-main-fullscreen {
+    margin: 0;
+    padding: 0;
+    display: block;
+  }
+
+  .sb-show-main.sb-main-padded {
+    margin: 0;
+    padding: 1rem;
+    display: block;
+    box-sizing: border-box;
+  }
+
+  .sb-wrapper {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 20px;
+    font-family: "Nunito Sans", -apple-system, ".SFNSText-Regular", "San Francisco", BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    overflow: auto;
+  }
+
+  .sb-heading {
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0.2px;
+    margin: 10px 0;
+    padding-right: 25px;
+  }
+
+  .sb-nopreview {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+  }
+
+  .sb-nopreview_main {
+    margin: auto;
+    padding: 30px;
+    border-radius: 10px;
+    background: rgba(0,0,0,0.03);
+  }
+
+  .sb-nopreview_heading {
+    text-align: center;
+  }
+
+  .sb-errordisplay {
+    border: 20px solid rgb(187, 49, 49);
+    background: #222;
+    color: #fff;
+    z-index: 999999;
+  }
+
+  .sb-errordisplay_code {
+    padding: 10px;
+    background: #000;
+    color: #eee;
+    font-family: "Operator Mono", "Fira Code Retina", "Fira Code", "FiraCode-Retina", "Andale Mono", "Lucida Console", Consolas, Monaco, monospace;
+  }
+
+  .sb-errordisplay pre {
+    white-space: pre-wrap;
+  }</style><script>/* globals window */
+  /* eslint-disable no-underscore-dangle */
+  try {
+    if (window.top !== window) {
+      window.__REACT_DEVTOOLS_GLOBAL_HOOK__ = window.top.__REACT_DEVTOOLS_GLOBAL_HOOK__;
+      window.__VUE_DEVTOOLS_GLOBAL_HOOK__ = window.top.__VUE_DEVTOOLS_GLOBAL_HOOK__;
+      window.top.__VUE_DEVTOOLS_CONTEXT__ = window.document;
+    }
+  } catch (e) {
+    // eslint-disable-next-line no-console
+    console.warn('unable to connect to top frame for connecting dev tools');
+  }
+
+  window.onerror = function onerror(message, source, line, column, err) {
+    if (window.CONFIG_TYPE !== 'DEVELOPMENT') return;
+    // eslint-disable-next-line no-var, vars-on-top
+    var xhr = new window.XMLHttpRequest();
+    xhr.open('POST', '/runtime-error');
+    xhr.setRequestHeader('Content-Type', 'application/json;charset=UTF-8');
+    xhr.send(
+      JSON.stringify({
+        /* eslint-disable object-shorthand */
+        message: message,
+        source: source,
+        line: line,
+        column: column,
+        error: err && { message: err.message, name: err.name, stack: err.stack },
+        origin: 'preview',
+        /* eslint-enable object-shorthand */
+      })
+    );
+  };</script><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,500,700"><link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"><link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons+Round"><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Barlow+Condensed:400,500,700"><link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"><style>html {
+		height: 100%;
+	}
+
+	html,
+	body {
+		margin: 0;
+		padding: 0;
+		font-family: 'Roboto', Helvetica, sans-serif;
+	}
+
+	body.dark {
+		background: #000;
+	}
+
+  .addon-notes-container {
+    background: #fff!important;
+  }</style><script src="https://stensineme.blob.core.windows.net/designsystem/test/jquery.js" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script><script src="https://stensineme.blob.core.windows.net/designsystem/test/yduqs_questions.js"></script><script src="https://stensineme.blob.core.windows.net/designsystem/test/questions.js"></script><script>function avaliarModulo(modNota) {
+
+            console.log('avaliando...');
+
+            modNota = modNota.split(/\s*\-\s*/g);
+            modulo = modNota[0];
+            nota = modNota[1];
+
+            closeFeedback = $('#mod' + modulo + '_nota' + nota).closest('.c-rating');
+            closeFeedback.removeClass('avaliar');
+            closeFeedback.addClass('avaliado');
+            closeFeedback.attr('disabled', '');
+            msgFeedback = closeFeedback.find('h3');
+            msgFeedback.text('Obrigado pelo feedback!')
+            $('#avaliacaoTema').attr('nota-mod' + modulo, nota)
+
+
+            swapStars = closeFeedback.find('.star-rating');
+
+            notaY = '<label><i class="active material-icons large gold-star" aria-hidden="true">star</i></label>';
+            notaN = '<label><i class="active material-icons large" aria-hidden="true">star</i></label>';
+
+            nota1 = notaN.repeat(4) + notaY;
+            nota2 = notaN.repeat(3) + notaY.repeat(2);
+            nota3 = notaN.repeat(2) + notaY.repeat(3);
+            nota4 = notaN + notaY.repeat(4);
+            nota5 = notaY.repeat(5);
+
+            if (nota == 1) {
+                swapStars.html(nota1);
+                window['mod' + modulo + 'nota'] = nota;
+            } else if (nota == 2) {
+                swapStars.html(nota2);
+                window['mod' + modulo + 'nota'] = nota;
+            } else if (nota == 3) {
+                swapStars.html(nota3);
+                window['mod' + modulo + 'nota'] = nota;
+            } else if (nota == 4) {
+                swapStars.html(nota4);
+                window['mod' + modulo + 'nota'] = nota;
+            } else if (nota == 5) {
+                swapStars.html(nota5);
+                window['mod' + modulo + 'nota'] = nota;
+            }
+
+            notaFinal = parseInt(window['mod1nota']) + parseInt(window['mod2nota']) + parseInt(window['mod3nota']) + parseInt(window['mod4nota']);
+            notaFinal = notaFinal / numeroDeModulos;
+            notaFinal = Math.ceil(notaFinal);
+
+            modsAvaliados = $('.avaliado').length;
+
+            if (modsAvaliados == numeroDeModulos) {
+                notaTema = $('#avaliacaoTema').find('.star-rating');
+                $('#avaliacaoTema').removeClass('d-none');
+
+                $('#avaliacaoTema').removeClass('d-none');
+                $('#avaliacaoTema').attr('nota-tema', notaFinal);
+
+                if (notaFinal == 1) {
+                    notaTema.html(nota1);
+                } else if (notaFinal == 2) {
+                    notaTema.html(nota2);
+                } else if (notaFinal == 3) {
+                    notaTema.html(nota3);
+                } else if (notaFinal == 4) {
+                    notaTema.html(nota4);
+                } else if (notaFinal == 5) {
+                    notaTema.html(nota5);
+                }
+            }
+        }</script><script>function reloadMath() {
+            let bodyHtml = document.querySelector('body');
+            let assetsMath = document.getElementById('mathjax-assets');
+            let wcMath = document.getElementById('mathjax-webcomponents');
+            let yqMath = document.getElementById('mathjax-assets-questions');
+
+            if (assetsMath !== null || wcMath !== null || yqMath !== null) {
+                const reloadMath = document.createElement('script');
+                reloadMath.type = "text/javascript";
+                reloadMath.src = "https://stensineme.blob.core.windows.net/designsystem/test/yduqs_mathjax_reload.js";
+                reloadMath.defer = true;
+                bodyHtml.appendChild(reloadMath);
+                reloadMath.remove();
+            }
+        }</script><script>document.addEventListener("DOMContentLoaded", function () {
+    const detailedMenu = document.querySelector('#menu');
+    const finalList = { 'modules': [] };
+
+    let modulesWithVideos = document.querySelectorAll('module');
+
+    modulesWithVideos.forEach((module) => {
+        preModuleId = module.getAttribute('id');
+        let moduleId = preModuleId.replace("modulo", "");
+        moduleId = parseInt(moduleId);
+
+        if (preModuleId !== 'apresentacao' && preModuleId !== 'conclusao') {
+
+            const htmlVideos = module.querySelectorAll('yduqs-video-player');
+            const playlistVideos = module.querySelectorAll('yduqs-module-video');
+            let indexVideoCounter = 0;
+            let playlistVideoCounter = 0;
+
+            htmlVideos.forEach(video => {
+
+
+
+
+
+                let insideModuleVideo = video.closest('.container');
+
+                if (insideModuleVideo !== null) {
+                    let isInsideModuleVideo = insideModuleVideo.getElementsByTagName('yduqs-gallery-video');
+                    isItThough = isInsideModuleVideo.length;
+
+                    if (isItThough === 0) {
+
+
+
+                        indexVideoCounter++;
+
+                        let closestContainer = video.closest('.container');
+                        let closestTitle = closestContainer.querySelector('yduqs-title');
+
+                        if (closestTitle !== null) {
+                            closestTitle = closestTitle.getAttribute('topic_title');
+                        }
+
+                        if (closestTitle !== null) {
+                            var videoTitle = closestTitle;
+                        } else {
+                            var videoTitle = 'Vídeo ' + indexVideoCounter;
+                        }
+
+                        let anchor = 'mod' + moduleId + 'vid' + indexVideoCounter;
+                        video.setAttribute('id', anchor);
+                        finalList['modules'].push({
+                            'module': 'modulo_' + moduleId,
+                            'playlist': [{
+                                'id': anchor,
+                                'title_video': videoTitle,
+                                'mod_num': moduleId,
+                                'type': 'video'
+                            }]
+                        });
+                    }
+                }
+
+            })
+
+            playlistVideos.forEach(playlist => {
+
+                playlistVideoCounter++;
+
+                let closestTitle = playlist.getAttribute('title_gallery');
+
+                if (closestTitle !== null) {
+                    var playlistTitle = closestTitle;
+                } else {
+                    var playlistTitle = 'Playlist ' + playlistVideoCounter;
+                }
+
+                let anchor = 'mod' + moduleId + 'pl' + playlistVideoCounter;
+                playlist.setAttribute('id', anchor);
+                finalList['modules'].push({
+                    'module': 'modulo_' + moduleId,
+                    'playlist': [{
+                        'id': anchor,
+                        'title_video': playlistTitle,
+                        'mod_num': moduleId,
+                        'type': 'playlist'
+                    }]
+                });
+            })
+
+        }
+    })
+
+    detailedMenu.initialize(finalList);
+
+    fetch('https://stensineme.blob.core.windows.net/designsystem/test/playlist_teste.json')
+        .then(response => response.json())
+        .then(json => {
+            document.querySelectorAll('yduqs-playlist-video').forEach(playlist => {
+                playlist.initialize(json);
+            })
+        })
+    })</script><style>#root[hidden],
+      #docs-root[hidden] {
+        display: none !important;
+      }</style></head><body><div class="sb-nopreview sb-wrapper"><div class="sb-nopreview_main"><h1 class="sb-nopreview_heading sb-heading">No Preview</h1><p>Sorry, but you either have no stories or none are selected somehow.</p><ul><li>Please check the Storybook config.</li><li>Try reloading the page.</li></ul><p>If the problem persists, check the browser console, or the terminal you've run Storybook from.</p></div></div><div class="sb-errordisplay sb-wrapper"><pre id="error-message" class="sb-heading"></pre><pre class="sb-errordisplay_code"><code id="error-stack"></code></pre></div><div id="root"></div><div id="docs-root"></div><script>window['LOGLEVEL'] = "info";
+            
+        
+            
+              window['FRAMEWORK_OPTIONS'] = {};
+            
+        
+            
+              window['FEATURES'] = {"postcss":true};</script><script src="runtime~main.dd033398.iframe.bundle.js"></script><script src="vendors~main.e25f1829.iframe.bundle.js"></script><script src="main.201a1e68.iframe.bundle.js"></script></body></html>
